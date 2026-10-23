@@ -13,6 +13,12 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 - Não compre seguidores, não faça comentários artificiais, não envie mensagens, não gaste dinheiro.
 - Não repita pauta já usada (lista em `queue.json` → `temas_usados`).
 
+## Carrosséis (quando houver)
+
+- Seguem `prompts/carrossel.md`: slide de conclusão que responde a pergunta com frase afirmativa e ponto final, e **último slide sempre o card da página** (`marca/card_final_carrossel.jpg`).
+- Imagens 4:5 (1080×1350) em JPEG, publicadas via `create_carousel_post` com links raw do GitHub.
+- Por ora os Reels seguem prioridade; carrossel só como conteúdo extra, sem substituir o Reel do dia.
+
 ## Teste em andamento: tipo de gancho
 
 - Grupo **A** = gancho em pergunta de mecanismo ("Por que…?", "Como…?").
