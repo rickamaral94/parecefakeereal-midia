@@ -17,7 +17,7 @@ RED = (235, 77, 75); GREEN = (80, 205, 140); BLUE = (90, 160, 255)
 LEAF = (88, 178, 98); LEAF_D = (52, 120, 64); SOIL = (110, 76, 52); TOMATO = (226, 72, 52)
 GRAY = (130, 136, 148)
 
-TTS_DIR = os.environ.get("TTS_DIR", "/tmp/claude-0/-home-claude/9972f397-a4d1-5b11-97db-7aa248282645/scratchpad/tts")
+TTS_DIR = os.environ.get("TTS_DIR", "/tmp/tts")
 VOICE = "vits-piper-pt_BR-faber-medium/pt_BR-faber-medium.onnx"
 
 def clamp(x, a=0, b=1): return max(a, min(b, x))

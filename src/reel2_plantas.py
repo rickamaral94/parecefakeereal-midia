@@ -171,7 +171,7 @@ CHUNKS = [
 ]
 
 if __name__ == "__main__":
-    wd = "/tmp/claude-0/-home-claude/9972f397-a4d1-5b11-97db-7aa248282645/scratchpad/reel2"
+    import os; wd = os.path.join(os.environ.get("WORK_DIR", "/tmp/reelwork"), "reel2")
     note = "Ilustração autoral; não são as gravações do estudo"
     if len(sys.argv) > 1 and sys.argv[1] == "preview":
         render(CHUNKS, wd, None, note, previews=[0.03, 0.13, 0.27, 0.38, 0.5, 0.62, 0.74, 0.86, 0.95, 0.99])
