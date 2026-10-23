@@ -18,7 +18,6 @@ LEAF = (88, 178, 98); LEAF_D = (52, 120, 64); SOIL = (110, 76, 52); TOMATO = (22
 GRAY = (130, 136, 148)
 
 TTS_DIR = os.environ.get("TTS_DIR", "/tmp/tts")
-VOICE = "vits-piper-pt_BR-faber-medium/pt_BR-faber-medium.onnx"
 
 def clamp(x, a=0, b=1): return max(a, min(b, x))
 def ease(x): x = clamp(x); return x * x * (3 - 2 * x)
@@ -71,14 +70,24 @@ def subtitle(d, text, k):
         d.text((x, y0 + i * lh), ln, font=F_SUB, fill=(255, 255, 255, int(255 * k)))
     return y0 - 20 + h
 
-def synth(chunks, workdir, length_scale=1.05):
-    durs = []
+# Voz: Supertonic 3 (pt), vozes masculinas M3 (sid 7) e M4 (sid 8), alternadas por Reel.
+SHERPA_BIN = "sherpa-onnx-v1.13.8-linux-x64-static/bin/sherpa-onnx-offline-tts"
+SUPERTONIC = "sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+VOICES = {"M3": 7, "M4": 8}
+
+def synth(chunks, workdir, voice="M3", speed=1.1, steps=10):
+    durs, D = [], os.path.join(TTS_DIR, SUPERTONIC)
     for i, ch in enumerate(chunks):
         out = os.path.join(workdir, f"c{i}.wav")
-        subprocess.run([os.path.join(TTS_DIR, "piper/piper"), "-m", os.path.join(TTS_DIR, VOICE),
-                        "--espeak_data", os.path.join(TTS_DIR, "piper/espeak-ng-data"),
-                        "--length_scale", str(length_scale), "--sentence_silence", "0.1", "-f", out],
-                       input=ch[1].encode(), capture_output=True, check=True)
+        subprocess.run([os.path.join(TTS_DIR, SHERPA_BIN),
+            f"--supertonic-duration-predictor={D}/duration_predictor.int8.onnx",
+            f"--supertonic-text-encoder={D}/text_encoder.int8.onnx",
+            f"--supertonic-vector-estimator={D}/vector_estimator.int8.onnx",
+            f"--supertonic-vocoder={D}/vocoder.int8.onnx",
+            f"--supertonic-tts-json={D}/tts.json", f"--supertonic-unicode-indexer={D}/unicode_indexer.bin",
+            f"--supertonic-voice-style={D}/voice.bin", "--lang=pt", f"--num-steps={steps}",
+            f"--speed={speed}", "--num-threads=2", f"--sid={VOICES[voice]}", f"--output-filename={out}", ch[1]],
+            capture_output=True, check=True)
         w = wave.open(out); durs.append(w.getnframes() / w.getframerate()); w.close()
     return durs
 
@@ -87,7 +96,8 @@ def build_audio(workdir, durs, gap=0.3, start=0.15, tail=0.7):
     for d in durs:
         starts.append(t); t += d + gap; R.append(t)
     R[-1] = t + tail; total = R[-1]
-    sr = 22050; n = int(total * sr)
+    w0 = wave.open(os.path.join(workdir, "c0.wav")); sr = w0.getframerate(); w0.close()
+    n = int(total * sr)
     mix = np.zeros(n + sr)
     for i, s in enumerate(starts):
         w = wave.open(os.path.join(workdir, f"c{i}.wav"))
@@ -120,9 +130,9 @@ def make_frame(chunks, R, t, note, bg_fn=None):
     od.text(((W - od.textlength(note, font=F_SMALL)) / 2, bottom + 18), note, font=F_SMALL, fill=(170, 175, 185, 200))
     return Image.alpha_composite(img, ov).convert("RGB")
 
-def render(chunks, workdir, out, note, previews=None, bg_fn=None):
+def render(chunks, workdir, out, note, previews=None, bg_fn=None, voice="M3", speed=1.1):
     os.makedirs(workdir, exist_ok=True)
-    durs = synth(chunks, workdir)
+    durs = synth(chunks, workdir, voice=voice, speed=speed)
     R, total = build_audio(workdir, durs)
     json.dump({"R": R, "total": total}, open(os.path.join(workdir, "timeline.json"), "w"))
     if previews is not None:

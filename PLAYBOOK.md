@@ -5,7 +5,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 ## Objetivo e regras fixas
 
 - Perfil de curiosidades de ciência, natureza, história, espaço e tecnologia: fatos que parecem inventados, com fundamento real e fontes verificáveis. Público: língua portuguesa. Objetivo: crescimento orgânico de seguidores.
-- Formato: **1 Reel por dia**, vertical 9:16, **40–50 s**, narração sintética PT-BR, legendas na tela. Sem carrosséis e sem Stories por enquanto (carrosséis tiveram mediana de 3 contas alcançadas).
+- Formato: **1 Reel por dia**, vertical 9:16, **40–50 s**, narração neural PT-BR (Supertonic 3, vozes M3/M4 alternadas), legendas na tela. Sem carrosséis e sem Stories por enquanto (carrosséis tiveram mediana de 3 contas alcançadas).
 - Estrutura: gancho → pistas → explicação → consequência → 1 CTA.
 - **Uma CTA por post** (seguir, enviar a alguém, salvar ou comentar). Até 5 hashtags específicas, sempre incluindo `#PareceFakeEReal`.
 - **Confiança acima de tudo:** valide a afirmação principal em fonte primária ou institucional (estudo, universidade, museu, agência científica) com WebSearch/WebFetch *na própria execução*. Diferencie fato, hipótese e interpretação; coloque a ressalva necessária no vídeo e na legenda. Se não conseguir verificar, **troque de tema** — nunca publique alegação não verificada.
@@ -39,7 +39,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
    - Pesquise e valide o tema; anote as fontes (URLs) no item da fila.
    - Escreva o roteiro em trechos `(legenda_na_tela, texto_para_tts, cena)` seguindo `src/reel3_tardigrados.py` como modelo; números por extenso no texto de TTS; legendas com no máximo 3 linhas.
    - Cenas: animações vetoriais desenhadas com PIL via `src/engine.py` (gancho grande no topo nos primeiros segundos, elemento visual em movimento, rótulos curtos).
-   - Narração: instale o Piper e a voz (ver "Ferramentas"); `engine.render(...)` sintetiza, sincroniza e codifica.
+   - Narração: Supertonic 3 (ver "Ferramentas"). Alterne as vozes **M3** e **M4** a cada Reel, seguindo o campo `voz` da fila (passe `voice="M3"` ou `"M4"` em `engine.render`). Distribua as vozes igualmente entre os grupos A e B para não contaminar o teste de ganchos. Ajuste `speed` (1.1 a 1.25) para caber em 40–50 s.
    - Gere o preview (`preview`), **olhe o sheet.png** e corrija sobreposições de texto antes do render final. Duração final entre 40 e 50 s.
    - Salve o script em `src/`, o vídeo em `videos/`, a legenda em `src/captions.json`, marque o item como `pronto`, faça commit e push.
 5. **Publicar:** `execute_action` → `create_video_post` com
@@ -60,11 +60,11 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 ## Ferramentas
 
 ```bash
-# Voz (Piper + pt_BR-faber-medium), baixados do GitHub
-mkdir -p $TTS_DIR && cd $TTS_DIR
-curl -sSL -o piper.tgz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz && tar xzf piper.tgz
-curl -sSL -o faber.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-pt_BR-faber-medium.tar.bz2 && tar xjf faber.tar.bz2
-# engine.py lê TTS_DIR da variável de ambiente
+# Voz neural Supertonic 3 (PT-BR) rodando com sherpa-onnx, baixados do GitHub
+export TTS_DIR=/tmp/tts && mkdir -p $TTS_DIR && cd $TTS_DIR
+curl -sSL -o so.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-v1.13.8-linux-x64-static.tar.bz2 && tar xjf so.tar.bz2
+curl -sSL -o st.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2 && tar xjf st.tar.bz2
+# engine.py lê TTS_DIR (padrão /tmp/tts). Vozes: M3 = sid 7, M4 = sid 8.
 ```
 
 Fontes do sistema: Inter (`/usr/share/fonts/opentype/inter/`). Requer ffmpeg, Pillow e numpy.

@@ -174,6 +174,6 @@ if __name__ == "__main__":
     import os; wd = os.path.join(os.environ.get("WORK_DIR", "/tmp/reelwork"), "reel2")
     note = "Ilustração autoral; não são as gravações do estudo"
     if len(sys.argv) > 1 and sys.argv[1] == "preview":
-        render(CHUNKS, wd, None, note, previews=[0.03, 0.13, 0.27, 0.38, 0.5, 0.62, 0.74, 0.86, 0.95, 0.99])
+        render(CHUNKS, wd, None, note, voice="M3", previews=[0.03, 0.13, 0.27, 0.38, 0.5, 0.62, 0.74, 0.86, 0.95, 0.99])
     else:
-        render(CHUNKS, wd, sys.argv[1], note)
+        render(CHUNKS, wd, sys.argv[1], note, voice="M3")
