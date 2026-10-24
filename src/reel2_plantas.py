@@ -89,7 +89,7 @@ def s2(img, d, u, t):
     return img
 
 def s3(img, d, u, t):
-    rows = [("saudável", "< 1 / hora", 1, GREEN), ("estressada", "~30–50 / hora", 40, RED)]
+    rows = [("saudável", "< 1 / hora", 1, GREEN), ("estressada", "11 a 35 / hora", 35, RED)]
     for r, (name, txt, n, col) in enumerate(rows):
         y = 560 + r * 300
         d.text((120, y), name, font=F_LBL, fill=col + (255,))
@@ -122,7 +122,7 @@ def s4(img, d, u, t):
         bx, by = W / 2, 1010
         c = WHITE + (int(255 * k3),)
         d.polygon([(bx - 170, by - 10), (bx - 60, by - 50), (bx - 20, by), (bx, by - 40), (bx + 20, by), (bx + 60, by - 50), (bx + 170, by - 10), (bx + 40, by + 30), (bx, by + 60), (bx - 40, by + 30)], fill=c)
-        text_c(d, 1080, "morcegos e alguns insetos escutam", F_SMALL, WHITE, alpha=k3)
+        text_c(d, 1080, "morcegos e insetos provavelmente ouvem", F_SMALL, WHITE, alpha=k3)
     label(d, 300, "40 A 80 kHz", ACC, seg(u, 0, 0.12))
     return img
 
@@ -133,8 +133,8 @@ def s5(img, d, u, t):
         if ph < 0.35:
             a = int(255 * (1 - ph / 0.35))
             d.text((W / 2 + dx - 40, dy), "clic", font=F_MID, fill=ACC + (a,))
-    label(d, 300, "ANTES DE MURCHAR", ACC, seg(u, 0, 0.15))
-    text_c(d, 380, "planta ainda verde, já emitindo cliques", F_MID, WHITE, alpha=seg(u, 0.2, 0.35))
+    label(d, 300, "SEM ÁGUA", ACC, seg(u, 0, 0.15))
+    text_c(d, 380, "cliques sobem nos primeiros dias e caem quando a planta seca", F_MID, WHITE, alpha=seg(u, 0.2, 0.35))
     return img
 
 def s6(img, d, u, t):
@@ -163,8 +163,8 @@ CHUNKS = [
  ("Pesquisadores de Tel Aviv puseram tomateiros e tabaco perto de microfones de ultrassom.", "Pesquisadores da Universidade de Tel Aviv colocaram tomateiros e plantas de tabaco perto de microfones de ultrassom.", s1),
  ("Algumas ficaram dias sem água. Outras tiveram o caule cortado.", "Algumas ficaram dias sem água. Outras tiveram o caule cortado.", s2),
  ("As plantas estressadas emitiram dezenas de cliques por hora. As saudáveis, menos de um.", "As plantas estressadas emitiram dezenas de cliques por hora. As saudáveis, menos de um.", s3),
- ("Entre 40 e 80 kHz: agudo demais para nós, mas audível para morcegos e alguns insetos.", "Os sons ficam entre quarenta e oitenta quilohertz: agudos demais para nós, mas na faixa que morcegos e alguns insetos escutam.", s4),
- ("E as plantas sem água começaram a estalar antes de parecerem murchas.", "E as plantas sem água começaram a estalar antes de parecerem murchas.", s5),
+ ("Entre 40 e 80 kHz: agudo demais para nós. Morcegos e insetos provavelmente ouvem.", "Os sons ficam entre quarenta e oitenta quilohertz: agudos demais para nós, mas animais como morcegos e insetos provavelmente conseguem ouvir.", s4),
+ ("Sem água, os cliques aumentaram nos primeiros dias e diminuíram quando a planta secou.", "Sem água, os cliques aumentaram nos primeiros dias e diminuíram quando a planta secou.", s5),
  ("Mas atenção: isso não é grito, nem dor. São cliques.", "Mas atenção: isso não é grito, nem dor. São cliques.", s6),
  ("Se outros seres usam essa informação, ainda é uma hipótese a ser testada.", "Se outros seres usam essa informação, ainda é uma hipótese a ser testada.", s7),
  ("Manda pra quem conversa com as plantas.", "Manda pra quem conversa com as plantas.", s8),

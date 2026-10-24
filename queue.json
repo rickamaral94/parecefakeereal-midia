@@ -33,7 +33,20 @@
         "https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum",
         "https://issnationallab.org/press-releases/spacex-crs31-mcast-astrobeat-welding"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-10-24",
+          "horas_desde_publicacao": -1,
+          "alcance": 1297,
+          "views": 1475,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        }
+      ],
       "voz": "Faber (Piper)"
     },
     {
@@ -45,10 +58,12 @@
       "status": "pronto",
       "video": "videos/reel2_plantas.mp4",
       "fontes": [
-        "Khait et al., Cell 186(7), 2023, DOI 10.1016/j.cell.2023.03.009"
+        "Khait et al., Cell 186(7), 2023, DOI 10.1016/j.cell.2023.03.009",
+        "https://www.aftau.org/news_item/plants-emit-sounds-beyond-the-hearing-range-of-the-human-ear-tau-researchers-say"
       ],
       "metricas": [],
-      "voz": "M3"
+      "voz": "M3",
+      "revisao_2026-10-24": "Verificado no artigo (Fig. 1B: 35,4/h tomate seco, 11,0/h tabaco seco, 25,2/h tomate cortado, 15,2/h tabaco cortado; controles <1/h). Corrigidos: gráfico (~30–50/h -> 11 a 35/h), frase não verificada \"estalam antes de murchar\" trocada por padrão sobe-e-cai, audição de morcegos/insetos com \"provavelmente\". Re-render 49 s, voz M3."
     },
     {
       "id": "reel3_tardigrados",
