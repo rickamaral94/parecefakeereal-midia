@@ -48,7 +48,7 @@ def s1(img, d, u, t):
     if k > 0:
         d.line((W / 2 - 150, 660, W / 2 + 150, 660), fill=ACC + (int(255 * k),), width=6)
         for x in (W / 2 - 150, W / 2 + 150): d.line((x, 645, x, 675), fill=ACC + (int(255 * k),), width=6)
-        text_c(d, 580, "≈ 1 mm", F_MID, ACC, alpha=k)
+        text_c(d, 580, "até ~1,5 mm", F_MID, ACC, alpha=k)
     label(d, 300, "URSO-D'ÁGUA", ACC, seg(u, 0, 0.15))
     text_c(d, 380, "tardígrado · vive em musgos e liquens", F_MID, WHITE, alpha=seg(u, 0.15, 0.3))
     return img
@@ -150,7 +150,7 @@ def s8(img, d, u, t):
 
 CHUNKS = [
  ("Como um animal sobreviveu ao vácuo do espaço, sem traje?", "Como um animal sobreviveu ao vácuo do espaço, sem traje?", s0),
- ("Ele é um tardígrado, o urso-d'água. Mede cerca de 1 milímetro e vive em musgos e liquens que secam com frequência.", "Ele é um tardígrado, o urso-d'água. Mede cerca de um milímetro, e vive em musgos e liquens que secam com frequência.", s1),
+ ("Tardígrado, o urso-d'água: até cerca de 1,5 mm. Vive em musgos e liquens que secam com frequência.", "Ele é um tardígrado, o urso-d'água. Mede no máximo cerca de um milímetro e meio, e vive em musgos e liquens úmidos, que secam com frequência.", s1),
  ("Quando o ambiente seca, ele desidrata e praticamente para o metabolismo.", "Quando o ambiente seca, ele desidrata, e praticamente para o metabolismo.", s2),
  ("Em 2007, a missão FOTON-M3, da Agência Espacial Europeia, expôs tardígrados secos ao vácuo e à radiação do espaço.", "Em dois mil e sete, a missão Fóton eme três, da Agência Espacial Europeia, expôs tardígrados secos ao vácuo e à radiação do espaço.", s3),
  ("De volta à Terra, a maioria sobreviveu ao vácuo.", "De volta à Terra, a maioria sobreviveu ao vácuo.", s4),
