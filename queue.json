@@ -98,7 +98,7 @@
       "grupo": "A",
       "gancho": "Como um animal sobreviveu ao vácuo do espaço sem traje?",
       "cta": "seguir",
-      "status": "pronto",
+      "status": "publicado",
       "video": "videos/reel3_tardigrados.mp4",
       "fontes": [
         "Jönsson et al., Current Biology 18, R729–R731 (2008)",
@@ -107,7 +107,9 @@
       ],
       "metricas": [],
       "voz": "M4",
-      "revisao_2026-10-25": "Reverificado (ScienceDaily/Current Biology e CORDIS): FOTON-M3, set/2007, ESA; maioria sobreviveu ao vácuo+raios cósmicos; alguns sobreviveram a UV >1000x a superfície; sobreviventes se reproduziram; mortalidade alta com UV. Corrigido tamanho: 'cerca de 1 mm' -> 'até cerca de 1,5 mm' (fontes: 0,1 a 1,5 mm). Re-render 48,7 s, voz M4."
+      "revisao_2026-10-25": "Reverificado (ScienceDaily/Current Biology e CORDIS): FOTON-M3, set/2007, ESA; maioria sobreviveu ao vácuo+raios cósmicos; alguns sobreviveram a UV >1000x a superfície; sobreviventes se reproduziram; mortalidade alta com UV. Corrigido tamanho: 'cerca de 1 mm' -> 'até cerca de 1,5 mm' (fontes: 0,1 a 1,5 mm). Re-render 48,7 s, voz M4.",
+      "media_id": "18094804016654404",
+      "publicado_em": "2026-10-25 07:19 (São Paulo)"
     },
     {
       "id": "reel4_mpemba",
