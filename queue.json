@@ -57,6 +57,18 @@
           "comentarios": 0,
           "tempo_medio_s": 20.66,
           "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 72,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
         }
       ],
       "voz": "Faber (Piper)"
@@ -85,6 +97,18 @@
           "comentarios": 0,
           "tempo_medio_s": 7.18,
           "pulo_3s": 0.591
+        },
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 48,
+          "alcance": 109,
+          "views": 116,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.18,
+          "pulo_3s": 0.591
         }
       ],
       "voz": "M3",
@@ -105,7 +129,20 @@
         "https://cordis.europa.eu/article/id/29839-water-bears-survive-space-environment-study-shows",
         "https://www.sciencedaily.com/releases/2008/09/080908135906.htm"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 24,
+          "alcance": 309,
+          "views": 338,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.74,
+          "pulo_3s": 0.537
+        }
+      ],
       "voz": "M4",
       "revisao_2026-10-25": "Reverificado (ScienceDaily/Current Biology e CORDIS): FOTON-M3, set/2007, ESA; maioria sobreviveu ao vácuo+raios cósmicos; alguns sobreviveram a UV >1000x a superfície; sobreviventes se reproduziram; mortalidade alta com UV. Corrigido tamanho: 'cerca de 1 mm' -> 'até cerca de 1,5 mm' (fontes: 0,1 a 1,5 mm). Re-render 48,7 s, voz M4.",
       "media_id": "18094804016654404",
@@ -115,13 +152,19 @@
       "id": "reel4_mpemba",
       "tema": "Efeito Mpemba: água quente pode congelar antes da fria?",
       "grupo": "B",
-      "gancho": "Água quente pode congelar antes da fria.",
+      "gancho": "Ele jurou: a água quente congelou antes.",
       "cta": "comentar o palpite",
-      "status": "pendente",
+      "status": "pronto",
       "observacao": "Fenômeno contestado: apresentar como controvérsia real, sem afirmar que sempre acontece.",
-      "fontes": [],
+      "fontes": [
+        "Mpemba & Osborne, \"Cool?\", Physics Education 4(3):172 (1969); relato: https://www.theafricaiknow.org/articles/The-Mpemba-effect",
+        "Burridge & Linden, Scientific Reports 6, 37665 (2016), DOI 10.1038/srep37665 — https://spiral.imperial.ac.uk/entities/publication/e564f7d0-943c-4c21-8572-e99a90ee8639",
+        "Kumar & Bechhoefer, Nature (2020) — https://www.sciencenews.org/article/physics-new-experiment-hot-water-freeze-faster-cold-mpemba-effect ; https://phys.org/news/2020-08-mpemba-effect.html"
+      ],
       "metricas": [],
-      "voz": "M4"
+      "voz": "M4",
+      "video": "videos/reel4_mpemba.mp4",
+      "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24."
     },
     {
       "id": "reel5_nitinol",
