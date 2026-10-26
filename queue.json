@@ -16,7 +16,8 @@
     "caixa-preta laranja",
     "soldagem a frio no espaço",
     "plantas emitem cliques ultrassônicos",
-    "tardígrados no vácuo"
+    "tardígrados no vácuo",
+    "efeito Mpemba"
   ],
   "fila": [
     {
@@ -154,7 +155,7 @@
       "grupo": "B",
       "gancho": "Ele jurou: a água quente congelou antes.",
       "cta": "comentar o palpite",
-      "status": "pronto",
+      "status": "publicado",
       "observacao": "Fenômeno contestado: apresentar como controvérsia real, sem afirmar que sempre acontece.",
       "fontes": [
         "Mpemba & Osborne, \"Cool?\", Physics Education 4(3):172 (1969); relato: https://www.theafricaiknow.org/articles/The-Mpemba-effect",
@@ -164,7 +165,9 @@
       "metricas": [],
       "voz": "M4",
       "video": "videos/reel4_mpemba.mp4",
-      "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24."
+      "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24.",
+      "media_id": "17931587052420379",
+      "publicado_em": "2026-10-26 07:21 (São Paulo)"
     },
     {
       "id": "reel5_nitinol",
