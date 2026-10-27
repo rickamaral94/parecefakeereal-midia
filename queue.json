@@ -225,7 +225,7 @@
       "grupo": "A",
       "gancho": "Por que esse fio amassado volta a ficar reto só com calor?",
       "cta": "salvar",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "https://doitpoms.ac.uk/ldplib/shape_memory/printall.php",
         "Kauffman & Mayo, Chem. Educator (1997) — https://nnci.net/sites/default/files/2020-02/Story%20of%20Nitinol.pdf",
@@ -235,7 +235,9 @@
       "metricas": [],
       "voz": "M3",
       "video": "videos/reel5_nitinol.mp4",
-      "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22."
+      "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22.",
+      "media_id": "18429735796151264",
+      "publicado_em": "2026-10-27 07:22 (São Paulo)"
     },
     {
       "id": "reel6_patos_borracha",
@@ -258,6 +260,18 @@
       "fontes": [],
       "metricas": [],
       "voz": "M4"
+    },
+    {
+      "id": "reel8_banana_radioativa",
+      "tema": "Bananas são levemente radioativas (potássio-40)",
+      "grupo": "B",
+      "gancho": "A banana da sua fruteira é radioativa.",
+      "cta": "enviar a alguém",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M4",
+      "motivo": "Mecanismo físico claro (isótopo natural K-40); exige ressalva de dose ínfima e de que o corpo regula o potássio."
     }
   ]
 }
