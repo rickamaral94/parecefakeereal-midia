@@ -17,7 +17,8 @@
     "soldagem a frio no espaço",
     "plantas emitem cliques ultrassônicos",
     "tardígrados no vácuo",
-    "efeito Mpemba"
+    "efeito Mpemba",
+    "nitinol / memória de forma"
   ],
   "fila": [
     {
@@ -70,6 +71,18 @@
           "comentarios": 0,
           "tempo_medio_s": 20.66,
           "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 96,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
         }
       ],
       "voz": "Faber (Piper)"
@@ -110,6 +123,18 @@
           "comentarios": 0,
           "tempo_medio_s": 7.18,
           "pulo_3s": 0.591
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 72,
+          "alcance": 110,
+          "views": 117,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.13,
+          "pulo_3s": 0.595
         }
       ],
       "voz": "M3",
@@ -142,6 +167,18 @@
           "comentarios": 0,
           "tempo_medio_s": 12.74,
           "pulo_3s": 0.537
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 48,
+          "alcance": 315,
+          "views": 342,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.81,
+          "pulo_3s": 0.54
         }
       ],
       "voz": "M4",
@@ -162,7 +199,20 @@
         "Burridge & Linden, Scientific Reports 6, 37665 (2016), DOI 10.1038/srep37665 — https://spiral.imperial.ac.uk/entities/publication/e564f7d0-943c-4c21-8572-e99a90ee8639",
         "Kumar & Bechhoefer, Nature (2020) — https://www.sciencenews.org/article/physics-new-experiment-hot-water-freeze-faster-cold-mpemba-effect ; https://phys.org/news/2020-08-mpemba-effect.html"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 24,
+          "alcance": 180,
+          "views": 202,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 10.09,
+          "pulo_3s": 0.381
+        }
+      ],
       "voz": "M4",
       "video": "videos/reel4_mpemba.mp4",
       "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24.",
@@ -173,12 +223,19 @@
       "id": "reel5_nitinol",
       "tema": "Liga com memória de forma (nitinol)",
       "grupo": "A",
-      "gancho": "Por que esse fio amassado volta a ser reto sozinho?",
+      "gancho": "Por que esse fio amassado volta a ficar reto só com calor?",
       "cta": "salvar",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "https://doitpoms.ac.uk/ldplib/shape_memory/printall.php",
+        "Kauffman & Mayo, Chem. Educator (1997) — https://nnci.net/sites/default/files/2020-02/Story%20of%20Nitinol.pdf",
+        "https://spinoff.nasa.gov/node/11593",
+        "NASA CR-1232 (1968) — https://ntrs.nasa.gov/api/citations/19690002089/downloads/19690002089.pdf"
+      ],
       "metricas": [],
-      "voz": "M3"
+      "voz": "M3",
+      "video": "videos/reel5_nitinol.mp4",
+      "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22."
     },
     {
       "id": "reel6_patos_borracha",
