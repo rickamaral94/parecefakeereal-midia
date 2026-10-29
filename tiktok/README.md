@@ -28,10 +28,26 @@ Se a integração falhar, reconciliar primeiro o estado do Metricool e o perfil 
 
 ## Métricas
 
-Dados indisponíveis não são zero. Registrar rede, janela e fonte; não misturar resultados TikTok com o A/B do Instagram. Os outros cinco resumos ainda não receberam revisão independente nesta rodada. Carrosséis TikTok ficam fora desta etapa.
+Dados indisponíveis não são zero. Registrar rede, janela e fonte; não misturar resultados TikTok com o A/B do Instagram. Os cinco resumos foram revisados em 29/10: quatro aprovados em8ea3; plantas corrigido após changes1319 e resposta claude-f19b, com alteração na main81126e0. Carrosséis TikTok ficam fora desta etapa.
 
 ## Fontes
 
 - [Metricool: TikTok](https://help.metricool.com/schedule-and-post-on-tiktok-bkepi).
 - [Metricool: planos](https://help.metricool.com/main-differences-between-free-and-paid-plans-bl0v9).
 - [ESA STM-279](https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum).
+
+## Lote ativado em 29/10/2026
+
+Rick autorizou diretamente: “autorizo ativar os 5 rascunhos do TikTok, 1 por dia de 30/10 a 03/11 às 18h”. Os mesmos cinco UUIDs foram convertidos em agendamentos ativos. Releitura confirmou `draft=false`, `autoPublish=true`, IA nativa ligada, capa em 2000 ms, mesmo texto e mesma mídia.
+
+| Data (18h, Brasília) | Vídeo | ID Metricool |
+|---|---|---|
+| 2026-10-30 | reel6_patos_borracha | 410275751 |
+| 2026-10-31 | reel4_mpemba | 410275860 |
+| 2026-11-01 | reel5_nitinol | 410275978 |
+| 2026-11-02 | reel3_tardigrados | 410276132 |
+| 2026-11-03 | reel2_plantas | 410276236 |
+
+O bloqueio anterior de autorização foi resolvido pela mensagem direta de Rick, sem contorno nem reenvio de arquivos. Agendado não significa postado: confirmar o retorno do TikTok em cada data antes de mudar para postado. Não publicar cópia manual.
+
+A revisão de plantas encontrou evidência posterior à fonte original: [Seltzer et al., eLife 2026](https://elifesciences.org/articles/104700v1) demonstra resposta de mariposas aos sons. A legenda limita a ressalva ao estudo de 2023, conforme correção aceita pelo claude. Revisão em `revisao-lote-20261029.md`.
