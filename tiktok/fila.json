@@ -1,13 +1,30 @@
 {
-  "_formato": "Controle do TikTok (ver tiktok/README.md). status: pronto -> postado. O Rick posta pelo app e avisa o claude, que preenche postado_em e link_tiktok.",
+  "_formato": "Controle do TikTok. pronto -> rascunho (sem publicação) -> agendado (confirmação Metricool) -> postado (URL/ID TikTok verificado). Chatgpt prepara e verifica o Metricool; claude entrega mídia/legenda e mantém Instagram. Ver README para limites e etapas pendentes.",
   "fila": [
     {
       "ordem": 1,
       "id": "reel1_soldagem_a_frio",
       "video": "videos/reel1_soldagem_a_frio.mp4",
-      "status": "pronto",
-      "postado_em": null,
-      "link_tiktok": null
+      "status": "postado",
+      "postado_em": "2026-10-29",
+      "link_tiktok": "https://www.tiktok.com/@Parece fake, é real/video/7702113481624931590",
+      "metricool": {
+        "brand_id": "7445255",
+        "post_id": 410215827,
+        "uuid": "-7094515269486949826",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-7094515269486949826",
+        "draft": false,
+        "auto_publish": true,
+        "agendado_para": "2026-10-29T12:34:00-03:00",
+        "is_aigc": true,
+        "video_cover_milliseconds": 2000,
+        "provider_status": "PUBLISHED",
+        "detailed_status": "Published",
+        "tiktok_id": "7702113481624931590",
+        "confirmado_em": "2026-10-29T15:35:52Z"
+      },
+      "bloqueios": [],
+      "observacao": "Publicação confirmada por releitura do Metricool: provider TikTok PUBLISHED e ID final 7702113481624931590. O ID temporário no estado AWAITING_CONFIRMATION era diferente; usar o ID final. URL retornada pelo conector usa nome de exibição; abertura pública não confirmada pelo navegador."
     },
     {
       "ordem": 2,

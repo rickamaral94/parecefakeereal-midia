@@ -1,40 +1,37 @@
-# TikTok — publicação manual dos Reels
+# TikTok — distribuição dos Reels
 
-Os Reels do Instagram são publicados também no TikTok. **O Rick posta pelo
-app**, porque não há integração de publicação no TikTok (o Windsor só publica no
-Instagram). O `claude` deixa tudo pronto: vídeo, legenda e checklist.
+Rick autorizou o primeiro TikTok em 29/10/2026: “Melancia / Pode publicar”. Conforme T-tiktok, claude mantém produção/Instagram e entrega MP4 original + legenda; chatgpt revisa a adaptação e opera TikTok pelo Metricool.
 
-- **Vídeos:** os mesmos arquivos de `videos/` (9:16, 1080×1920, 47–49 s, sem
-  marca d'água). O link de download de cada um está em `legendas.md`.
-- **Legendas:** `legendas.md`, um bloco por vídeo, pronto para copiar.
-- **Controle:** `fila.json` registra o que já foi para o TikTok. Depois de
-  postar, avise o `claude` (ou o canal), que marca a data e o link.
+## Estado verificado em 29/10/2026
 
-## Checklist ao postar (app do TikTok)
+- Marca Parece fake, é real, brandId 7445255, fuso America/Sao_Paulo.
+- Soldagem a frio: agendamento aceito para 29/10 às 12:34 BRT, ID 410215827, UUID -7094515269486949826. [Abrir no planner](https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-7094515269486949826).
+- `draft=false`, `autoPublish=true`, privacidade PUBLIC_TO_EVERYONE. Publicação confirmada por releitura: provider `PUBLISHED`, `detailedStatus=Published`, ID final TikTok `7702113481624931590`. O ID intermediário 7702113269397538823 não era o ID final. A URL retornada usa nome de exibição; navegação pública não foi confirmada nesta ferramenta. Não reenviar.
+- Rótulo nativo IA: `tiktokData.isAigc=true` enviado e confirmado por releitura do rascunho antes da ativação. Capa: `videoCoverMilliseconds=2000`.
+- Upload do MP4 original H.264/AAC, 1080×1920, 48,03 s; blob main aa665c381104041de651156e656565e60286cc84. Sem música adicionada.
+- A API exige caminho local no upload e `tiktokData.title`. Ao atualizar, devolve outro ID; UUID permanece. Os blocos twitterData/instagramData retornados como defaults na leitura devem ser omitidos na escrita de um post apenas TikTok: o validador rejeita redes ausentes de providers.
+- Claim: T-pub-2026-10-29-tiktok, chatgpt. Não publicar cópia manual enquanto houver este agendamento.
 
-1. Baixe o vídeo pelo link em `legendas.md` e salve na galeria.
-2. Toque em **+** → **Carregar** → escolha o vídeo. Não acrescente música: o
-   vídeo já tem narração.
-3. **Capa:** escolha o quadro do gancho, por volta de 2 s, com o texto grande.
-4. Cole a legenda do bloco correspondente.
-5. **Mais opções → ligue "Conteúdo gerado por IA"**, porque a locução é
-   sintética. Isso evita penalidade por falta de rótulo.
-6. Publicar. Copie o link do vídeo e mande para o `claude` registrar.
+## Operação e rastreio
 
-## Ordem e ritmo
+1. Conferir a fila, respostas no canal e duplicidade antes de cada peça. A consulta de analytics vazia não comprova ausência de posts manuais.
+2. Rever afirmação e fonte primária; primeiro vídeo confrontado com ESA STM-279 (contatos, desgaste e superfícies no vácuo).
+3. Publicar claim antes da ativação. Preservar mídia, legenda e controles ao atualizar; reler o estado.
+4. Registrar agendado quando aceito e postado apenas com confirmação de publicação/URL ou ID TikTok.
+5. Após erro ou retorno ambíguo, consultar estado antes de repetir. Erro não prova ausência de publicação.
+6. Sem upgrade, assinatura ou gastos. O plano Free informa até 20 posts/mês; o saldo da conta não está exposto pelo conector. Erros reais de cota devem ser registrados; não presumir saldo.
+7. Demais cinco vídeos permanecem prontos. Calendário futuro depende da cota e de Rick; não alterar a frequência do Instagram. Sem automação recorrente criada.
 
-Para recuperar os 6 vídeos já feitos: 1 por dia, no fim da tarde, para não
-coincidir com o Reel do Instagram (07:20). A ordem segue o desempenho no
-Instagram: soldagem a frio, que teve o menor pulo, vem primeiro. Depois disso,
-o Reel do dia vai para o TikTok no mesmo dia, e a rotina diária acrescenta o
-bloco dele em `legendas.md`.
+## Plano B pelo app
 
-## Diferenças em relação ao Instagram
+Se a integração falhar, reconciliar primeiro o estado do Metricool e o perfil para evitar duplicata. Só depois usar o MP4 original de videos/ e a legenda revisada de legendas.md, sem música extra, capa do gancho em aproximadamente 2s, rótulo Conteúdo gerado por IA ativado e privacidade conferida. Registrar URL/ID na fila e avisar o outro agente; nunca publicar manualmente por cima de um agendamento ativo.
 
-- Legenda curta: gancho, explicação em 1–2 frases, ressalva e fonte resumida.
-  Links não são clicáveis no TikTok, por isso cito só a instituição e o ano;
-  os links completos ficam na legenda do Instagram e em `src/captions.json`.
-- Uma CTA só. Até 5 hashtags, sempre com `#PareceFakeEReal`.
-- Métricas do TikTok: ainda não há leitura automática. Para medir, conecte o
-  TikTok orgânico no Windsor, só leitura. Até lá, os números vêm de você
-  pelo app.
+## Métricas
+
+Dados indisponíveis não são zero. Registrar rede, janela e fonte; não misturar resultados TikTok com o A/B do Instagram. Os outros cinco resumos ainda não receberam revisão independente nesta rodada. Carrosséis TikTok ficam fora desta etapa.
+
+## Fontes
+
+- [Metricool: TikTok](https://help.metricool.com/schedule-and-post-on-tiktok-bkepi).
+- [Metricool: planos](https://help.metricool.com/main-differences-between-free-and-paid-plans-bl0v9).
+- [ESA STM-279](https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum).
