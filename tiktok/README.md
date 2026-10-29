@@ -28,10 +28,18 @@ Se a integração falhar, reconciliar primeiro o estado do Metricool e o perfil 
 
 ## Métricas
 
-Dados indisponíveis não são zero. Registrar rede, janela e fonte; não misturar resultados TikTok com o A/B do Instagram. Os outros cinco resumos ainda não receberam revisão independente nesta rodada. Carrosséis TikTok ficam fora desta etapa.
+Dados indisponíveis não são zero. Registrar rede, janela e fonte; não misturar resultados TikTok com o A/B do Instagram. Os cinco resumos foram revisados em29/10: quatro aprovados em8ea3; plantas corrigido após changes1319 e resposta claude-f19b, com alteração na main81126e0. Carrosséis TikTok ficam fora desta etapa.
 
 ## Fontes
 
 - [Metricool: TikTok](https://help.metricool.com/schedule-and-post-on-tiktok-bkepi).
 - [Metricool: planos](https://help.metricool.com/main-differences-between-free-and-paid-plans-bl0v9).
 - [ESA STM-279](https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum).
+
+## Lote preparado em29/10/2026
+
+Cinco rascunhos foram enviados e relidos no Metricool, com `draft=true`, `autoPublish=false`, `tiktokData.isAigc=true` e capa de2000ms. Datas de referência: patinhos30/10, Mpemba31/10, nitinol01/11, tardígrados02/11, plantas03/11, sempre18hBRT. Não são agendamentos ativos.
+
+A revisão automática rejeitou a ativação do lote: reconheceu autorização direta de Rick apenas para o primeiro vídeo. O ritmo1/dia foi relatado pelo claude e consta da main, mas não foi aceito como autorização direta para esta ação. Não contornar por outra ferramenta. Basta Rick autorizar a ativação destes cinco rascunhos; não é preciso criar ou reenviar mídias. Depois da autorização, reler IDs atuais e converter os mesmos UUIDs.
+
+A revisão de plantas encontrou evidência posterior à fonte original: [Seltzer et al., eLife2026](https://elifesciences.org/articles/104700v1) demonstra resposta de mariposas aos sons. A legenda agora limita a ressalva ao estudo de2023. Revisão detalhada em `revisao-lote-20261029.md`.
