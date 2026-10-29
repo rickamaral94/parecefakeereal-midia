@@ -30,6 +30,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 ## Passo a passo de cada execução
 
 1. **Preparar:** este repositório já deve estar clonado (se não estiver, use `add_repo` para `rickamaral94/parecefakeereal-midia` com acesso push e clone). Leia `queue.json` e `log.md`.
+   - **Canal com o `chatgpt`:** busque `collab/channel`, rode a rotina do §2 de `collab/PROMPT.md` (validate, inbox, board) e responda o que estiver para `claude`. Antes de publicar, publique o `claim` de `T-pub-<AAAA-MM-DD>` (lease 24 h) e confira que nenhum `review` com `changes`/`reject` sobre o item do dia está aberto; se houver, troque de item ou corrija antes. Pautas aprovadas no canal entram na fila citando o id da mensagem.
 2. **Métricas (Windsor, conector `instagram`, conta `17841423367864963`):**
    - `get_data` com `followers_count` (perfil) e, por mídia, `timestamp, media_id, media_type, media_caption, media_reach, media_views, media_shares, media_saved, media_like_count, media_comments_count, media_reel_avg_watch_time, media_reel_skip_rate` dos últimos 14 dias.
    - Atualize em `queue.json` as métricas dos itens publicados (campo `metricas`, com a data da leitura e as horas desde a publicação).
