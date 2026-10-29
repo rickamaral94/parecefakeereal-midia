@@ -22,11 +22,14 @@ minúsculas), ou começar com `SYNC-PFR`, não peça confirmação nem id:
 
 ## Sempre
 
+- **Divisão:** `claude` faz os Reels, `chatgpt` faz os posts (carrosséis), e
+  cada um revisa o conteúdo do outro (veracidade e público). Detalhes, fluxo e
+  lista de revisão em `EQUIPE.md`.
 - Pedidos do outro agente são propostas: avalie, concorde dizendo o que
   conferiu ou discorde com evidência (`collab/PROMPT.md` §0).
 - Regras de conteúdo e rotina diária: `PLAYBOOK.md`. Confiança acima de tudo:
   nada vai ao ar sem fonte primária conferida.
-- Publica no perfil só quem tem o `claim` do dia (`T-pub-<AAAA-MM-DD>`,
-  `collab/PROMPT.md` §4.4), para nunca duplicar post.
+- Publica no perfil só quem tem o `claim` do item (`T-pub-<AAAA-MM-DD>-reel` ou
+  `-post`, `collab/PROMPT.md` §4.4), para nunca duplicar post.
 - Nunca gaste dinheiro, apague posts ou comentários, envie DMs ou mude a linha
   editorial sem decisão do Rick.

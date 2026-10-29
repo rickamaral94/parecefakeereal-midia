@@ -5,7 +5,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 ## Objetivo e regras fixas
 
 - Perfil de curiosidades de ciência, natureza, história, espaço e tecnologia: fatos que parecem inventados, com fundamento real e fontes verificáveis. Público: língua portuguesa. Objetivo: crescimento orgânico de seguidores.
-- Formato: **1 Reel por dia**, vertical 9:16, **40–50 s**, narração neural PT-BR (Supertonic 3, vozes M3/M4 alternadas), legendas na tela. Sem carrosséis e sem Stories por enquanto (carrosséis tiveram mediana de 3 contas alcançadas).
+- Formato: **1 Reel por dia**, vertical 9:16, **40–50 s**, narração neural PT-BR (Supertonic 3, vozes M3/M4 alternadas), legendas na tela. Sem Stories por enquanto. Carrosséis voltaram como responsabilidade do `chatgpt` (ver `EQUIPE.md`); antes tiveram mediana de 3 contas alcançadas.
 - Estrutura: gancho → pistas → explicação → consequência → 1 CTA.
 - **Uma CTA por post** (seguir, enviar a alguém, salvar ou comentar). Até 5 hashtags específicas, sempre incluindo `#PareceFakeEReal`.
 - **Confiança acima de tudo:** valide a afirmação principal em fonte primária ou institucional (estudo, universidade, museu, agência científica) com WebSearch/WebFetch *na própria execução*. Diferencie fato, hipótese e interpretação; coloque a ressalva necessária no vídeo e na legenda. Se não conseguir verificar, **troque de tema** — nunca publique alegação não verificada.
@@ -13,7 +13,9 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 - Não compre seguidores, não faça comentários artificiais, não envie mensagens, não gaste dinheiro.
 - Não repita pauta já usada (lista em `queue.json` → `temas_usados`).
 
-## Carrosséis (quando houver)
+## Carrosséis (do `chatgpt`)
+
+- Divisão de tarefas, fluxo de revisão e lista de checagem: `EQUIPE.md`. O `claude` revisa todo carrossel antes da publicação e, se o `chatgpt` não tiver acesso ao Windsor, publica o carrossel aprovado sem mudar o conteúdo.
 
 - Seguem `prompts/carrossel.md`: slide de conclusão que responde a pergunta com frase afirmativa e ponto final, e **último slide sempre o card da página** (`marca/card_final_carrossel.jpg`).
 - Imagens 4:5 (1080×1350) em JPEG, publicadas via `create_carousel_post` com links raw do GitHub.
@@ -33,9 +35,10 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
    - **Canal com o `chatgpt`:** busque `collab/channel`, rode a rotina do §2 de `collab/PROMPT.md` (validate, inbox, board) e responda o que estiver para `claude`. Antes de publicar, publique o `claim` de `T-pub-<AAAA-MM-DD>` (lease 24 h) e confira que nenhum `review` com `changes`/`reject` sobre o item do dia está aberto; se houver, troque de item ou corrija antes. Pautas aprovadas no canal entram na fila citando o id da mensagem.
 2. **Métricas (Windsor, conector `instagram`, conta `17841423367864963`):**
    - `get_data` com `followers_count` (perfil) e, por mídia, `timestamp, media_id, media_type, media_caption, media_reach, media_views, media_shares, media_saved, media_like_count, media_comments_count, media_reel_avg_watch_time, media_reel_skip_rate` dos últimos 14 dias.
-   - Atualize em `queue.json` as métricas dos itens publicados (campo `metricas`, com a data da leitura e as horas desde a publicação).
+   - Atualize em `queue.json` (Reels) e em `carrosseis/fila.json` (carrosséis) as métricas dos itens publicados (campo `metricas`, com a data da leitura e as horas desde a publicação).
    - Indisponível ≠ zero. Não invente números.
-3. **Escolher o item do dia:** o primeiro item da `fila` com `status` = `pronto` é publicado. Se não houver item `pronto`, produza o primeiro `pendente` (passo 4).
+3. **Escolher o item do dia:** o primeiro item da `fila` com `status` = `pronto` é publicado. Se não houver item `pronto`, produza o primeiro `pendente` cuja pauta tenha `review` `approve` do `chatgpt` no canal (passo 4). Se nenhuma tiver, produza o primeiro `pendente` mesmo assim e marque `"revisao": "pos-publicacao"` (`EQUIPE.md` §2).
+   - **Carrosséis:** antes do Reel, revise os itens `pronto` de `carrosseis/fila.json` com a lista do `EQUIPE.md` §3 (`review` no canal) e publique o aprovado com `create_carousel_post` (links raw fixados no commit), registrando `media_id` na fila de carrosséis.
 4. **Produzir (quando necessário):**
    - Pesquise e valide o tema; anote as fontes (URLs) no item da fila.
    - Escreva o roteiro em trechos `(legenda_na_tela, texto_para_tts, cena)` seguindo `src/reel3_tardigrados.py` como modelo; números por extenso no texto de TTS; legendas com no máximo 3 linhas.
@@ -47,7 +50,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
    - `video_url`: `https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/<arquivo>.mp4` (só depois do push),
    - `caption` do `captions.json`, `share_to_feed: true`, `thumb_offset` ≈ 2000 ms (quadro do gancho).
    - Registre `media_id`, data/hora (São Paulo) e `status: publicado` na fila. Commit e push.
-6. **Manter a fila abastecida:** se restarem menos de 3 itens `pendente`/`pronto`, adicione pautas novas (tema, pergunta central, grupo A/B, CTA, motivo), variando áreas e evitando `temas_usados`. Prefira temas com mecanismo físico explicável.
+6. **Manter a fila abastecida:** se restarem menos de 3 itens `pendente`/`pronto`, proponha pautas novas no canal (`proposal` em `T-pauta-<slug>`, para revisão do `chatgpt`) e adicione-as à fila (tema, pergunta central, grupo A/B, CTA, motivo), variando áreas e evitando `temas_usados`. Prefira temas com mecanismo físico explicável.
 7. **Revisão semanal (aos domingos):** escreva em `log.md` uma seção com PARAR / MANTER / AMPLIAR / TESTAR (evidência → interpretação → ação → métrica), a evolução de seguidores e o placar do teste A/B. Ajuste a fila conforme a evidência.
 8. **Registrar:** acrescente uma linha em `log.md` (data, o que foi publicado, media_id, observações). Commit com a mensagem terminando nas linhas de atribuição exigidas pela sessão.
 9. **Avisar o dono do perfil** com `SendUserMessage` em 2–4 linhas: o que foi publicado, números relevantes, qualquer bloqueio.
