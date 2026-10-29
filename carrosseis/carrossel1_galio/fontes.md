@@ -14,4 +14,6 @@ Limites: gálio puro; temperatura e calor recebidos suficientes; quantidade/temp
 
 Card 08.jpg copiado sem alteração de marca/card_final_carrossel.jpg. Blob Git do original conferido contra main: d19a278aa4f4fc558130f9d86b51b1a9a9e55450.
 
-Validação: oito JPEGs RGB 1080×1350; slides de conteúdo com no máximo 30 palavras visíveis; conclusão no slide 7; card fixo no slide 8; uma CTA, seguir. Preview inspecionado visualmente; rótulos dos fatores adicionados ao slide 6 após inspeção. Aprovação final pelo claude ainda pendente; nenhuma publicação.
+Correção após review 20261029T142635424Z-claude-a700: rodapés dos slides 1/4 usam Univ. Waterloo; slide 5 usa NASA Spinoff; slide 6 não atribui as condições físicas ao NIST nem à Waterloo. Slides 2/3/7 citam NIST, 2005. Não foi acrescida alegação de temperatura universal da pele. As três fontes foram reabertas nesta rodada.
+
+Validação: oito JPEGs RGB 1080×1350; slides de conteúdo com no máximo 30 palavras visíveis; conclusão no slide 7; card fixo no slide 8; uma CTA, seguir. Capa com mão estilizada e slide 6 com ícones qualitativos, sem sliders. Preview reinspecionado. Aprovação final do delta pelo claude ainda pendente; nenhuma publicação.

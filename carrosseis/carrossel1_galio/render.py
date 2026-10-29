@@ -23,6 +23,8 @@ SLIDES = [
  ('Não é em\nqualquer mão.', 'Temperatura, quantidade de metal e tempo de contato importam. Pode demorar.', 'caveat'),
  ('Então…', 'O gálio derrete perto de 29,8 °C; por isso, pode derreter sem fogo.\nÉ uma mudança de estado.', 'conclusion'),
 ]
+SOURCES = ['Univ. Waterloo', 'NIST, 2005', 'NIST, 2005',
+           'Univ. Waterloo', 'NASA Spinoff', '', 'NIST, 2005']
 
 def font(size,bold=False):
     f=ImageFont.truetype(FONT,size)
@@ -84,8 +86,17 @@ def thermometer(d,x,y,h=360):
 def scene(d,kind):
     if kind=='cover':
         d.ellipse((140,575,930,1150),fill=PANEL)
-        cube(d,185,740,190); arrow(d,490,835,610,835); droplet(d,805,835,110)
-        text(d,(170,1080),'GÁLIO',size=42,bold=True,color=YELLOW)
+        # Mão em vista lateral: ilustração geométrica, sem temperatura presumida.
+        d.polygon([(140,1010),(350,952),(406,921),(389,875),(393,838),
+                   (418,824),(442,843),(482,902),(664,917),(806,897),
+                   (850,906),(866,928),(855,951),(792,976),(683,1032),
+                   (535,1078),(374,1084),(170,1140)],fill='#344761')
+        d.line([(145,1011),(350,952),(406,921),(389,875),(393,838),
+                (418,824),(442,843),(482,902),(664,917),(806,897),
+                (850,906),(866,928),(855,951),(792,976)],fill='#8EA8C8',width=7)
+        d.line((610,980,804,934),fill='#65809F',width=4)
+        droplet(d,659,805,110)
+        text(d,(170,640),'GÁLIO',size=42,bold=True,color=YELLOW)
     elif kind=='limit':
         d.rounded_rectangle((80,600,1000,1110),36,fill=PANEL)
         d.line((175,905,905,905),fill='#55617A',width=10)
@@ -110,9 +121,19 @@ def scene(d,kind):
     elif kind=='caveat':
         for n,y in enumerate([670,835,1000]):
             d.rounded_rectangle((80,y,1000,y+112),24,fill=PANEL)
-            text(d,(110,y+34),['Temperatura','Quantidade','Tempo'][n],size=34,color=WHITE)
-            d.line((440,y+56,920,y+56),fill='#3B465C',width=10)
-            d.ellipse((490+n*150,y+34,534+n*150,y+78),fill=YELLOW)
+            text(d,(280,y+34),['Temperatura','Quantidade','Tempo'][n],size=38,color=WHITE)
+            if n==0:
+                d.rounded_rectangle((161,y+19,185,y+71),12,outline=YELLOW,width=5)
+                d.ellipse((152,y+61,194,y+99),fill=YELLOW)
+            elif n==1:
+                d.line((174,y+20,174,y+89),fill=YELLOW,width=5)
+                d.line((139,y+40,209,y+40),fill=YELLOW,width=5)
+                d.line((145,y+40,135,y+68,155,y+68,145,y+40),fill=YELLOW,width=3)
+                d.line((203,y+40,193,y+68,213,y+68,203,y+40),fill=YELLOW,width=3)
+                d.line((151,y+90,197,y+90),fill=YELLOW,width=5)
+            else:
+                d.ellipse((137,y+20,211,y+94),outline=YELLOW,width=5)
+                d.line((174,y+35,174,y+57,194,y+67),fill=YELLOW,width=5)
     elif kind=='conclusion':
         d.ellipse((290,730,790,1170),fill=PANEL)
         droplet(d,540,965,125)
@@ -129,13 +150,15 @@ def main():
         assert end<650,(i,end)
         scene(d,kind)
         text(d,(80,1254),'Diagrama sem escala',size=24,color=MUTED)
-        text(d,(815,1254),'NIST, 2005',size=24,color=MUTED,maxwidth=210)
+        source=SOURCES[i-1]
+        if source:
+            text(d,(815 if source=='NIST, 2005' else 780,1254),source,size=24,color=MUTED,maxwidth=240)
         extra={'cover':'GÁLIO','limit':'FRIO CALOR 29,8 °C','temperature':'29,8 °C',
                'heat':'CALOR','change':'SÓLIDO LÍQUIDO','caveat':'Temperatura Quantidade Tempo','conclusion':''}[kind]
-        visible=f'{title} {body} {extra} @parecefakeereal {i}/8 Diagrama sem escala NIST, 2005'
+        visible=f'{title} {body} {extra} @parecefakeereal {i}/8 Diagrama sem escala {source}'
         count=len(visible.split()); assert count<=30,(i,count)
         path=ROOT/f'{i:02}.jpg';im.save(path,quality=94,subsampling=0)
-        records.append({'slide':i,'title':title,'body':body,'diagram':kind,'visible_words':count,
+        records.append({'slide':i,'title':title,'body':body,'diagram':kind,'source_footer':source,'visible_words':count,
                         'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
         thumb=im.copy();thumb.thumbnail((270,338));thumbs.append(thumb)
     shutil.copyfile(CARD,ROOT/'08.jpg')
