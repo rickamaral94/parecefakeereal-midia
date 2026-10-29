@@ -1,13 +1,28 @@
 {
-  "_formato": "Controle do TikTok (ver tiktok/README.md). status: pronto -> postado. O Rick posta pelo app e avisa o claude, que preenche postado_em e link_tiktok.",
+  "_formato": "Controle do TikTok. pronto -> rascunho (sem publicação) -> agendado (confirmação Metricool) -> postado (URL/ID TikTok verificado). Chatgpt prepara e verifica o Metricool; claude entrega mídia/legenda e mantém Instagram. Ver README para limites e etapas pendentes.",
   "fila": [
     {
       "ordem": 1,
       "id": "reel1_soldagem_a_frio",
       "video": "videos/reel1_soldagem_a_frio.mp4",
-      "status": "pronto",
+      "status": "rascunho",
       "postado_em": null,
-      "link_tiktok": null
+      "link_tiktok": null,
+      "metricool": {
+        "brand_id": "7445255",
+        "post_id": 410199721,
+        "uuid": "-7094515269486949826",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-7094515269486949826",
+        "draft": true,
+        "auto_publish": false,
+        "data_referencia": "2026-10-30T18:00:00-03:00"
+      },
+      "bloqueios": [
+        "Confirmar rótulo de conteúdo gerado por IA no TikTok/Metricool.",
+        "Verificar plano e contador de cota restantes; não presumir saldo pela fila vazia.",
+        "Confirmar perfil e ausência de publicações manuais antes de ativar."
+      ],
+      "observacao": "Rascunho relido pelo conector em 29/10. Data de referência não é agendamento ativo. Nenhuma publicação automática habilitada."
     },
     {
       "ordem": 2,
