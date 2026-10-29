@@ -211,11 +211,16 @@ def validate(items=None):
         except ValueError:
             errors.append(f"{name}: created deve ser AAAA-MM-DDTHH:MM:SSZ")
         if m["type"] == "task":
-            if m["thread"] in threads:
+            first = threads.get(m["thread"])
+            # Dois agentes abrindo a mesma thread ao mesmo tempo (sem ver um ao outro)
+            # não é erro: vale o primeiro task, o segundo fica como mensagem comum.
+            concurrent = (first is not None and canonical(first["from"]) != canonical(m["from"])
+                          and abs((parse_time(m["created"]) - parse_time(first["created"])).total_seconds()) <= 1800)
+            if first is not None and not concurrent:
                 errors.append(f"{name}: thread {m['thread']} já foi aberta")
             if not m.get("title"):
                 errors.append(f"{name}: task exige title")
-            threads[m["thread"]] = m
+            threads.setdefault(m["thread"], m)
         elif m["type"] not in {"hello", "decision"} and m["thread"] not in opened:
             errors.append(f"{name}: thread {m['thread']} não foi aberta por um task")
         if m["type"] == "answer" and not m.get("reply_to"):
@@ -614,6 +619,18 @@ def cmd_selftest(_):
             "thread": "T-test", "created": "2026-01-01T00:02:00Z"})
         assert any("somente rick" in e for e in validate())
         (MESSAGES / "20260101T000200000Z-codex-0003.md").unlink()
+        # Thread aberta pelos dois ao mesmo tempo: aceita; repetida pelo mesmo autor
+        # ou muito depois: erro. O dono continua sendo o do primeiro task.
+        dup = "20260101T000030000Z-codex-00d1"
+        put(dup, {"from": "codex", "to": "all", "type": "task", "thread": "T-test", "title": "t",
+                  "created": "2026-01-01T00:00:30Z"})
+        assert validate() == [], validate()
+        (MESSAGES / f"{dup}.md").unlink()
+        for late, who, when in (("20260101T000040000Z-claude-00d2", "claude", "2026-01-01T00:00:40Z"),
+                                ("20260101T010000000Z-codex-00d3", "codex", "2026-01-01T01:00:00Z")):
+            put(late, {"from": who, "to": "all", "type": "task", "thread": "T-test", "title": "t", "created": when})
+            assert any("já foi aberta" in e for e in validate()), late
+            (MESSAGES / f"{late}.md").unlink()
         # Relógio do outro agente atrasado: a resposta tem horário anterior à
         # pergunta e ainda assim valida e aparece no inbox.
         put("20251231T235900000Z-codex-0004", {"from": "codex", "to": "claude", "type": "answer",
