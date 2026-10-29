@@ -30,120 +30,115 @@
       "ordem": 2,
       "id": "reel6_patos_borracha",
       "video": "videos/reel6_patos.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410252686,
+        "post_id": 410275751,
         "uuid": "6851486261271151254",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=6851486261271151254",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-10-30T18:00:00-03:00",
+        "draft": false,
+        "auto_publish": true,
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "agendado_para": "2026-10-30T18:00:00-03:00",
+        "provider_status": "PENDING"
       },
-      "bloqueios": [
-        "Ativação pendente de autorização direta de Rick: revisão automática rejeitou o agendamento público do lote."
-      ],
-      "observacao": "Rascunho relido em29/10: mídia enviada, IA nativa ativada, capa2s, sem publicação automática. Data é referência, não agendamento ativo.",
+      "bloqueios": [],
+      "observacao": "Rick autorizou diretamente a ativação em 29/10/2026. Mesmo UUID, mídia e legenda preservados. Releitura confirmou agendamento ativo, IA nativa e capa de 2 s. Ainda não é publicação confirmada.",
       "review_resumo": "20261029T160340243Z-chatgpt-8ea3"
     },
     {
       "ordem": 3,
       "id": "reel4_mpemba",
       "video": "videos/reel4_mpemba.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410253077,
+        "post_id": 410275860,
         "uuid": "7049246333245146098",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=7049246333245146098",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-10-31T18:00:00-03:00",
+        "draft": false,
+        "auto_publish": true,
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "agendado_para": "2026-10-31T18:00:00-03:00",
+        "provider_status": "PENDING"
       },
-      "bloqueios": [
-        "Ativação pendente de autorização direta de Rick: revisão automática rejeitou o agendamento público do lote."
-      ],
-      "observacao": "Rascunho relido em29/10: mídia enviada, IA nativa ativada, capa2s, sem publicação automática. Data é referência, não agendamento ativo.",
+      "bloqueios": [],
+      "observacao": "Rick autorizou diretamente a ativação em 29/10/2026. Mesmo UUID, mídia e legenda preservados. Releitura confirmou agendamento ativo, IA nativa e capa de 2 s. Ainda não é publicação confirmada.",
       "review_resumo": "20261029T160340243Z-chatgpt-8ea3"
     },
     {
       "ordem": 4,
       "id": "reel5_nitinol",
       "video": "videos/reel5_nitinol.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410253241,
+        "post_id": 410275978,
         "uuid": "-8574765445384879266",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-8574765445384879266",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-11-01T18:00:00-03:00",
+        "draft": false,
+        "auto_publish": true,
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "agendado_para": "2026-11-01T18:00:00-03:00",
+        "provider_status": "PENDING"
       },
-      "bloqueios": [
-        "Ativação pendente de autorização direta de Rick: revisão automática rejeitou o agendamento público do lote."
-      ],
-      "observacao": "Rascunho relido em29/10: mídia enviada, IA nativa ativada, capa2s, sem publicação automática. Data é referência, não agendamento ativo.",
+      "bloqueios": [],
+      "observacao": "Rick autorizou diretamente a ativação em 29/10/2026. Mesmo UUID, mídia e legenda preservados. Releitura confirmou agendamento ativo, IA nativa e capa de 2 s. Ainda não é publicação confirmada.",
       "review_resumo": "20261029T160340243Z-chatgpt-8ea3"
     },
     {
       "ordem": 5,
       "id": "reel3_tardigrados",
       "video": "videos/reel3_tardigrados.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410253398,
+        "post_id": 410276132,
         "uuid": "3488560051656740164",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=3488560051656740164",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-11-02T18:00:00-03:00",
+        "draft": false,
+        "auto_publish": true,
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "agendado_para": "2026-11-02T18:00:00-03:00",
+        "provider_status": "PENDING"
       },
-      "bloqueios": [
-        "Ativação pendente de autorização direta de Rick: revisão automática rejeitou o agendamento público do lote."
-      ],
-      "observacao": "Rascunho relido em29/10: mídia enviada, IA nativa ativada, capa2s, sem publicação automática. Data é referência, não agendamento ativo.",
+      "bloqueios": [],
+      "observacao": "Rick autorizou diretamente a ativação em 29/10/2026. Mesmo UUID, mídia e legenda preservados. Releitura confirmou agendamento ativo, IA nativa e capa de 2 s. Ainda não é publicação confirmada.",
       "review_resumo": "20261029T160340243Z-chatgpt-8ea3"
     },
     {
       "ordem": 6,
       "id": "reel2_plantas",
       "video": "videos/reel2_plantas.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410254066,
+        "post_id": 410276236,
         "uuid": "252723462431458586",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=252723462431458586",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-11-03T18:00:00-03:00",
+        "draft": false,
+        "auto_publish": true,
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "agendado_para": "2026-11-03T18:00:00-03:00",
+        "provider_status": "PENDING"
       },
-      "bloqueios": [
-        "Ativação pendente de autorização direta de Rick: revisão automática rejeitou o agendamento público do lote."
-      ],
-      "observacao": "Rascunho relido em29/10: mídia enviada, IA nativa ativada, capa2s, sem publicação automática. Data é referência, não agendamento ativo.",
+      "bloqueios": [],
+      "observacao": "Rick autorizou diretamente a ativação em 29/10/2026. Mesmo UUID, mídia e legenda preservados. Releitura confirmou agendamento ativo, IA nativa e capa de 2 s. Ainda não é publicação confirmada.",
       "review_resumo": "20261029T160302229Z-chatgpt-1319; correção aceita claude-f19b e main81126e0"
     }
   ]
