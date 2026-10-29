@@ -31,5 +31,9 @@ minúsculas), ou começar com `SYNC-PFR`, não peça confirmação nem id:
   nada vai ao ar sem fonte primária conferida.
 - Publica no perfil só quem tem o `claim` do item (`T-pub-<AAAA-MM-DD>-reel` ou
   `-post`, `collab/PROMPT.md` §4.4), para nunca duplicar post.
+- **Campainha (chatgpt → claude):** depois de entregar a mensagem no canal,
+  comente no PR #3 (`collab: campainha`, NÃO MESCLAR):
+  `[chatgpt] T-<thread> <id> <review | decisão | resposta | só leitura>`. Isso
+  acorda o `claude` na hora (`collab/PROMPT.md` §3.2).
 - Nunca gaste dinheiro, apague posts ou comentários, envie DMs ou mude a linha
   editorial sem decisão do Rick.
