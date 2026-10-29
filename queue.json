@@ -18,7 +18,8 @@
     "plantas emitem cliques ultrassônicos",
     "tardígrados no vácuo",
     "efeito Mpemba",
-    "nitinol / memória de forma"
+    "nitinol / memória de forma",
+    "patinhos de borracha no Pacífico (1992)"
   ],
   "fila": [
     {
@@ -83,6 +84,18 @@
           "comentarios": 0,
           "tempo_medio_s": 20.66,
           "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 144,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
         }
       ],
       "voz": "Faber (Piper)"
@@ -135,6 +148,18 @@
           "comentarios": 0,
           "tempo_medio_s": 7.13,
           "pulo_3s": 0.595
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 120,
+          "alcance": 110,
+          "views": 117,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.13,
+          "pulo_3s": 0.595
         }
       ],
       "voz": "M3",
@@ -179,6 +204,18 @@
           "comentarios": 0,
           "tempo_medio_s": 12.81,
           "pulo_3s": 0.54
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 96,
+          "alcance": 315,
+          "views": 342,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.81,
+          "pulo_3s": 0.54
         }
       ],
       "voz": "M4",
@@ -211,6 +248,18 @@
           "comentarios": 0,
           "tempo_medio_s": 10.09,
           "pulo_3s": 0.381
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 72,
+          "alcance": 181,
+          "views": 203,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 10.08,
+          "pulo_3s": 0.379
         }
       ],
       "voz": "M4",
@@ -232,7 +281,20 @@
         "https://spinoff.nasa.gov/node/11593",
         "NASA CR-1232 (1968) — https://ntrs.nasa.gov/api/citations/19690002089/downloads/19690002089.pdf"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 48,
+          "alcance": 175,
+          "views": 185,
+          "curtidas": 4,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.9,
+          "pulo_3s": 0.409
+        }
+      ],
       "voz": "M3",
       "video": "videos/reel5_nitinol.mp4",
       "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22.",
@@ -245,7 +307,7 @@
       "grupo": "B",
       "gancho": "Milhares de patinhos de plástico caíram no mar — e viraram ciência.",
       "cta": "enviar a alguém",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "Ebbesmeyer & Ingraham, Eos 75(37):425-432 (1994), DOI 10.1029/94EO01056 — https://marineinfo.org/id/publication/356622",
         "Ebbesmeyer, Ingraham, Royer & Grosch, 'Tub toys orbit the Pacific Subarctic Gyre', Eos 88(1):1,4 (2007) — https://faculty.wallin.wwu.edu/envr325/tubtoys_ocean_circ.pdf",
@@ -255,7 +317,9 @@
       "metricas": [],
       "voz": "M3",
       "video": "videos/reel6_patos.mp4",
-      "revisao_2026-10-29": "Verificado nesta execução: queda em 10/01/1992 no Pacífico Norte (44°N, 178°E), ~28.800 brinquedos (Eos 2007; 'about 29,000' em Eos 1994 e Science Museum); chegada a Sitka em 1992 (Eos 2007: ago–set/1992; Eos 1994 e Science Museum: ~10 meses depois — por isso o vídeo diz só 'no mesmo ano'); OSCURS calibrado com os encalhes; ~3 anos por volta no giro subártico (média 2,99 a, com outros flutuantes e dados da água); saídas para o Ártico e o giro subtropical. Não usado (não verificado em fonte primária): chegada ao Atlântico/Reino Unido e porcentagem exata recuperada. 'Borracha' trocado por 'plástico'. 47,3 s, voz M3, speed 1.22."
+      "revisao_2026-10-29": "Verificado nesta execução: queda em 10/01/1992 no Pacífico Norte (44°N, 178°E), ~28.800 brinquedos (Eos 2007; 'about 29,000' em Eos 1994 e Science Museum); chegada a Sitka em 1992 (Eos 2007: ago–set/1992; Eos 1994 e Science Museum: ~10 meses depois — por isso o vídeo diz só 'no mesmo ano'); OSCURS calibrado com os encalhes; ~3 anos por volta no giro subártico (média 2,99 a, com outros flutuantes e dados da água); saídas para o Ártico e o giro subtropical. Não usado (não verificado em fonte primária): chegada ao Atlântico/Reino Unido e porcentagem exata recuperada. 'Borracha' trocado por 'plástico'. 47,3 s, voz M3, speed 1.22.",
+      "media_id": "18125673406693727",
+      "publicado_em": "2026-10-29 07:20 (São Paulo)"
     },
     {
       "id": "reel7_formigas_jangada",
@@ -279,6 +343,18 @@
       "metricas": [],
       "voz": "M4",
       "motivo": "Mecanismo físico claro (isótopo natural K-40); exige ressalva de dose ínfima e de que o corpo regula o potássio."
+    },
+    {
+      "id": "reel9_bolhas_sabao",
+      "tema": "Cores das bolhas de sabão (interferência em película fina)",
+      "grupo": "A",
+      "gancho": "Por que uma bolha de sabão transparente fica colorida?",
+      "cta": "salvar",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M3",
+      "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar."
     }
   ]
 }
