@@ -5,24 +5,22 @@
       "ordem": 1,
       "id": "reel1_soldagem_a_frio",
       "video": "videos/reel1_soldagem_a_frio.mp4",
-      "status": "rascunho",
+      "status": "agendado",
       "postado_em": null,
       "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
-        "post_id": 410199721,
+        "post_id": 410215827,
         "uuid": "-7094515269486949826",
         "planner_url": "https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-7094515269486949826",
-        "draft": true,
-        "auto_publish": false,
-        "data_referencia": "2026-10-30T18:00:00-03:00"
+        "draft": false,
+        "auto_publish": true,
+        "agendado_para": "2026-10-29T12:34:00-03:00",
+        "is_aigc": true,
+        "video_cover_milliseconds": 2000
       },
-      "bloqueios": [
-        "Confirmar rótulo de conteúdo gerado por IA no TikTok/Metricool.",
-        "Verificar plano e contador de cota restantes; não presumir saldo pela fila vazia.",
-        "Confirmar perfil e ausência de publicações manuais antes de ativar."
-      ],
-      "observacao": "Rascunho relido pelo conector em 29/10. Data de referência não é agendamento ativo. Nenhuma publicação automática habilitada."
+      "bloqueios": [],
+      "observacao": "Rick autorizou publicar em 29/10. Metricool aceitou agendamento para 12:34 BRT; aguardando confirmação do TikTok. Não publicar cópia manual."
     },
     {
       "ordem": 2,
