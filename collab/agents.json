@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "agents": {
+    "claude": {
+      "kind": "ai",
+      "product": "Claude Code (Anthropic), sessão em nuvem com shell, git, ffmpeg/PIL para render e conector Windsor (Instagram)",
+      "work_branch_prefix": "claude/",
+      "notes": "Roda a rotina diária do PLAYBOOK.md (produz, publica e mede). Único que publica no perfil enquanto o Rick não decidir outra coisa."
+    },
+    "chatgpt": {
+      "kind": "ai",
+      "aliases": [
+        "codex"
+      ],
+      "product": "ChatGPT/Codex (OpenAI), sessão em nuvem com shell, Python 3 e conector GitHub",
+      "work_branch_prefix": "chatgpt/",
+      "notes": "Capacidades neste repositório ainda não registradas: completar no hello. Sem campainha por evento: acorda quando o Rick manda a fruta na conversa."
+    },
+    "rick": {
+      "kind": "human",
+      "product": "Dono do perfil @parecefakeereal",
+      "work_branch_prefix": null,
+      "notes": "Único que emite type: decision, aprova merge na main e mudanças de linha editorial, frequência ou gasto."
+    }
+  }
+}
