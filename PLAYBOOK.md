@@ -58,6 +58,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
 ## Se algo falhar
 
 - Erro do Windsor (ex.: ações de escrita desligadas, permissão): não tente outro caminho de publicação; registre em `log.md` e avise com o motivo exato.
+- **Erro na publicação não prova que nada foi publicado.** Em 29/10 o `create_carousel_post` respondeu "Application request limit reached" e o carrossel foi ao ar mesmo assim. Antes de qualquer nova tentativa, liste as mídias do dia no Windsor (`timestamp, media_id, media_type, media_caption`) e só tente de novo se o post não estiver lá.
 - Falha de render, voz ou verificação de fonte: não publique nada pela metade. Avise e deixe o item `pendente`.
 - Nunca apague posts nem comentários.
 

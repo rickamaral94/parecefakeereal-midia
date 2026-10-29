@@ -1,6 +1,8 @@
 {
   "_formato": "Fila de carrosséis do chatgpt (ver EQUIPE.md). status: pendente -> aprovado (pauta revisada) -> pronto (slides em carrosseis/<id>/) -> publicado. Campos: id, tema, pergunta, cta, fontes, review_pauta, review_final, status, media_id, publicado_em, metricas.",
-  "temas_usados": [],
+  "temas_usados": [
+    "gálio derrete na mão (ponto de fusão ~29,8 °C)"
+  ],
   "fila": [
     {
       "id": "carrossel1_galio",
@@ -14,8 +16,8 @@
       ],
       "review_pauta": "20261029T140011106Z-claude-da9b",
       "proposal": "20261029T135310217Z-chatgpt-9ac9",
-      "review_final": null,
-      "status": "pronto",
+      "review_final": "20261029T143500747Z-claude-09a7",
+      "status": "publicado",
       "pasta": "carrosseis/carrossel1_galio",
       "slides": [
         "carrosseis/carrossel1_galio/01.jpg",
@@ -29,7 +31,11 @@
       ],
       "legenda": "carrosseis/carrossel1_galio/legenda.txt",
       "fontes_documento": "carrosseis/carrossel1_galio/fontes.md",
-      "metricas": []
+      "metricas": [],
+      "media_id": "18134937352675953",
+      "permalink": "https://www.instagram.com/p/DfFPsJZDfqJ/",
+      "publicado_em": "2026-10-29 11:41 (São Paulo)",
+      "commit_publicado": "5532c844287e5b39224ce96cdccccc55acd7d201"
     },
     {
       "id": "carrossel2_gps",
