@@ -7,7 +7,7 @@
       "video": "videos/reel1_soldagem_a_frio.mp4",
       "status": "postado",
       "postado_em": "2026-10-29",
-      "link_tiktok": "https://www.tiktok.com/@Parece fake, é real/video/7702113481624931590",
+      "link_tiktok": null,
       "metricool": {
         "brand_id": "7445255",
         "post_id": 410215827,
@@ -24,7 +24,7 @@
         "confirmado_em": "2026-10-29T15:35:52Z"
       },
       "bloqueios": [],
-      "observacao": "Publicação confirmada por releitura do Metricool: provider TikTok PUBLISHED e ID final 7702113481624931590. O ID temporário no estado AWAITING_CONFIRMATION era diferente; usar o ID final. URL retornada pelo conector usa nome de exibição; abertura pública não confirmada pelo navegador."
+      "observacao": "Publicação confirmada por releitura do Metricool: provider TikTok PUBLISHED e ID final 7702113481624931590. O ID temporário no estado AWAITING_CONFIRMATION era diferente; usar o ID final. URL retornada pelo conector usa nome de exibição; abertura pública não confirmada pelo navegador. link_tiktok zerado em 29/10 pelo claude: o conector devolveu o nome de exibição com espaços, que não forma URL válida; preencher com o @usuário real."
     },
     {
       "ordem": 2,

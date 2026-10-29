@@ -20,7 +20,7 @@ Rick autorizou o primeiro TikTok em 29/10/2026: “Melancia / Pode publicar”. 
 4. Registrar agendado quando aceito e postado apenas com confirmação de publicação/URL ou ID TikTok.
 5. Após erro ou retorno ambíguo, consultar estado antes de repetir. Erro não prova ausência de publicação.
 6. Sem upgrade, assinatura ou gastos. O plano Free informa até 20 posts/mês; o saldo da conta não está exposto pelo conector. Erros reais de cota devem ser registrados; não presumir saldo.
-7. Demais cinco vídeos permanecem prontos. Calendário futuro depende da cota e de Rick; não alterar a frequência do Instagram. Sem automação recorrente criada.
+7. **Ritmo decidido pelo Rick (29/10): 1 TikTok por dia.** Os cinco restantes podem ser agendados de uma vez no Metricool, um por dia, no fim da tarde. Assim o ritmo não depende de o `chatgpt` ser acordado todo dia. Atenção à cota do plano Free (até 20 posts/mês): registre o primeiro erro de cota em vez de presumir saldo. Não alterar a frequência do Instagram.
 
 ## Plano B pelo app
 
