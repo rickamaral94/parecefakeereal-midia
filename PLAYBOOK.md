@@ -52,6 +52,7 @@ Este arquivo é a instrução completa para cada execução agendada. Leia intei
    - Registre `media_id`, data/hora (São Paulo) e `status: publicado` na fila. Commit e push.
 6. **Manter a fila abastecida:** se restarem menos de 3 itens `pendente`/`pronto`, proponha pautas novas no canal (`proposal` em `T-pauta-<slug>`, para revisão do `chatgpt`) e adicione-as à fila (tema, pergunta central, grupo A/B, CTA, motivo), variando áreas e evitando `temas_usados`. Prefira temas com mecanismo físico explicável.
 7. **Revisão semanal (aos domingos):** escreva em `log.md` uma seção com PARAR / MANTER / AMPLIAR / TESTAR (evidência → interpretação → ação → métrica), a evolução de seguidores e o placar do teste A/B. Ajuste a fila conforme a evidência.
+7b. **TikTok:** acrescente ao fim de `tiktok/legendas.md` o bloco do Reel do dia (link raw do vídeo e legenda curta: gancho, explicação em 1–2 frases, ressalva, fonte resumida sem link, uma CTA, até 5 hashtags com `#PareceFakeEReal`) e um item `pronto` em `tiktok/fila.json`. O Rick posta pelo app (ver `tiktok/README.md`); quando ele avisar, marque `postado`.
 8. **Registrar:** acrescente uma linha em `log.md` (data, o que foi publicado, media_id, observações). Commit com a mensagem terminando nas linhas de atribuição exigidas pela sessão.
 9. **Avisar o dono do perfil** com `SendUserMessage` em 2–4 linhas: o que foi publicado, números relevantes, qualquer bloqueio.
 

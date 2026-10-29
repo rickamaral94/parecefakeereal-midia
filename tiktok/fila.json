@@ -1,0 +1,53 @@
+{
+  "_formato": "Controle do TikTok (ver tiktok/README.md). status: pronto -> postado. O Rick posta pelo app e avisa o claude, que preenche postado_em e link_tiktok.",
+  "fila": [
+    {
+      "ordem": 1,
+      "id": "reel1_soldagem_a_frio",
+      "video": "videos/reel1_soldagem_a_frio.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    },
+    {
+      "ordem": 2,
+      "id": "reel6_patos_borracha",
+      "video": "videos/reel6_patos.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    },
+    {
+      "ordem": 3,
+      "id": "reel4_mpemba",
+      "video": "videos/reel4_mpemba.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    },
+    {
+      "ordem": 4,
+      "id": "reel5_nitinol",
+      "video": "videos/reel5_nitinol.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    },
+    {
+      "ordem": 5,
+      "id": "reel3_tardigrados",
+      "video": "videos/reel3_tardigrados.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    },
+    {
+      "ordem": 6,
+      "id": "reel2_plantas",
+      "video": "videos/reel2_plantas.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
+    }
+  ]
+}
