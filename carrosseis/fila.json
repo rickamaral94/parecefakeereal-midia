@@ -1,5 +1,64 @@
 {
   "_formato": "Fila de carrosséis do chatgpt (ver EQUIPE.md). status: pendente -> aprovado (pauta revisada) -> pronto (slides em carrosseis/<id>/) -> publicado. Campos: id, tema, pergunta, cta, fontes, review_pauta, review_final, status, media_id, publicado_em, metricas.",
   "temas_usados": [],
-  "fila": []
+  "fila": [
+    {
+      "id": "carrossel1_galio",
+      "tema": "Gálio pode derreter com calor da mão",
+      "pergunta": "Como um metal pode derreter sem fogo?",
+      "cta": "seguir",
+      "fontes": [
+        "https://www.nist.gov/publications/nist-realization-its-90-gallium-fixed-point",
+        "https://uwaterloo.ca/chemistry/community-outreach/periodic-table-project/gallium",
+        "https://spinoff.nasa.gov/node/11593"
+      ],
+      "review_pauta": "20261029T140011106Z-claude-da9b",
+      "proposal": "20261029T135310217Z-chatgpt-9ac9",
+      "review_final": null,
+      "status": "pronto",
+      "pasta": "carrosseis/carrossel1_galio",
+      "slides": [
+        "carrosseis/carrossel1_galio/01.jpg",
+        "carrosseis/carrossel1_galio/02.jpg",
+        "carrosseis/carrossel1_galio/03.jpg",
+        "carrosseis/carrossel1_galio/04.jpg",
+        "carrosseis/carrossel1_galio/05.jpg",
+        "carrosseis/carrossel1_galio/06.jpg",
+        "carrosseis/carrossel1_galio/07.jpg",
+        "carrosseis/carrossel1_galio/08.jpg"
+      ],
+      "legenda": "carrosseis/carrossel1_galio/legenda.txt",
+      "fontes_documento": "carrosseis/carrossel1_galio/fontes.md",
+      "metricas": []
+    },
+    {
+      "id": "carrossel2_gps",
+      "tema": "GPS e relatividade",
+      "pergunta": "Por que localizar você exige corrigir relógios no espaço?",
+      "cta": "seguir",
+      "fontes": [
+        "https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test"
+      ],
+      "review_pauta": "20261029T140011176Z-claude-397b",
+      "proposal": "20261029T135310317Z-chatgpt-927e",
+      "review_final": null,
+      "status": "aprovado",
+      "metricas": []
+    },
+    {
+      "id": "carrossel3_ras_de_vidro",
+      "tema": "Rãs-de-vidro escondem hemácias no fígado",
+      "pergunta": "Como essa rã fica mais transparente enquanto dorme?",
+      "cta": "seguir",
+      "fontes": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9984244/",
+        "https://pratt.duke.edu/news/glassfrogs-hide-red-blood-cells-their-liver-become-transparent/"
+      ],
+      "review_pauta": "20261029T140011238Z-claude-9f05",
+      "proposal": "20261029T135310407Z-chatgpt-50ba",
+      "review_final": null,
+      "status": "aprovado",
+      "metricas": []
+    }
+  ]
 }

@@ -1,0 +1,65 @@
+[
+  {
+    "slide": 1,
+    "title": "Este metal pode\nderreter na mão.",
+    "body": "Como isso acontece sem fogo?",
+    "diagram": "cover",
+    "source_footer": "Univ. Waterloo",
+    "visible_words": 19,
+    "sha256": "e22c17b890edd38821450b59550c05d912bf7e44e85fcfa322f39ae5abd7053e"
+  },
+  {
+    "slide": 2,
+    "title": "Cada metal tem\nseu limite.",
+    "body": "O ponto de fusão do gálio fica perto da temperatura de um dia quente.",
+    "diagram": "limit",
+    "source_footer": "NIST, 2005",
+    "visible_words": 30,
+    "sha256": "1bede741a93da3c5435aa1deb8e05efd72c205b83d2d497dff499449c13f6839"
+  },
+  {
+    "slide": 3,
+    "title": "A virada é\na 29,8 °C.",
+    "body": "Essa é, aproximadamente, a temperatura em que o gálio puro começa a derreter.",
+    "diagram": "temperature",
+    "source_footer": "NIST, 2005",
+    "visible_words": 28,
+    "sha256": "3fd247ffd0392b36d60ed57b0033a38cebc8e85ea73870abd853406a177c763c"
+  },
+  {
+    "slide": 4,
+    "title": "Calor pode\nvir da mão.",
+    "body": "Com calor suficiente, o metal recebe energia até começar a mudar de estado.",
+    "diagram": "heat",
+    "source_footer": "Univ. Waterloo",
+    "visible_words": 26,
+    "sha256": "7d03c92f0f34f6ca071d1da619e18f2dbc4c04f0fe21f86e664a3e3076611e7e"
+  },
+  {
+    "slide": 5,
+    "title": "Derreter não é\nlembrar a forma.",
+    "body": "Aqui o sólido vira líquido. É diferente da memória de forma do nitinol.",
+    "diagram": "change",
+    "source_footer": "NASA Spinoff",
+    "visible_words": 28,
+    "sha256": "f8b28b9c42ed1ad5014015d557da8a812425f0ce471d3eae72510c267ab2c613"
+  },
+  {
+    "slide": 6,
+    "title": "Não é em\nqualquer mão.",
+    "body": "Temperatura, quantidade de metal e tempo de contato importam. Pode demorar.",
+    "diagram": "caveat",
+    "source_footer": "",
+    "visible_words": 24,
+    "sha256": "ff240672daefe4e54b1b18a726a30e974a7ce1b5863e9f86c9d061dc1b47d218"
+  },
+  {
+    "slide": 7,
+    "title": "Então…",
+    "body": "O gálio derrete perto de 29,8 °C; por isso, pode derreter sem fogo.\nÉ uma mudança de estado.",
+    "diagram": "conclusion",
+    "source_footer": "NIST, 2005",
+    "visible_words": 26,
+    "sha256": "28f1d563bfcaa348f26ca101683acccc9a7e311d88f0d4a8087638d0837ab686"
+  }
+]
