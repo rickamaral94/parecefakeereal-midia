@@ -115,7 +115,7 @@ Plantas estressadas emitem cliques ultrassônicos. 🌱🔊
 
 Pesquisadores da Universidade de Tel Aviv gravaram tomateiros e tabaco: sem água ou com o caule cortado, emitiram em média de 11 a 35 cliques por hora, acima do que o ouvido humano capta.
 
-Ressalva: não é grito nem dor. Se animais reagem a esses sons ainda é pergunta em aberto.
+Ressalva: não é evidência de dor. O estudo de 2023 mediu os sons, sem testar a reação de animais.
 
 Fonte: Khait et al., Cell (2023). Ilustração autoral, locução sintética.
 
