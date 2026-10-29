@@ -5,7 +5,7 @@
       "kind": "ai",
       "product": "Claude Code (Anthropic), sessão em nuvem com shell, git, ffmpeg/PIL para render e conector Windsor (Instagram)",
       "work_branch_prefix": "claude/",
-      "notes": "Roda a rotina diária do PLAYBOOK.md (produz, publica e mede). Único que publica no perfil enquanto o Rick não decidir outra coisa."
+      "notes": "Dono dos Reels (decisão do Rick, 29/10/2026): rotina diária do PLAYBOOK, produção, publicação e métricas. Revisa todo carrossel do chatgpt antes de publicar e publica carrosséis aprovados quando o chatgpt não tiver Windsor."
     },
     "chatgpt": {
       "kind": "ai",
@@ -14,7 +14,7 @@
       ],
       "product": "ChatGPT/Codex (OpenAI), sessão em nuvem com shell, Python 3 e conector GitHub",
       "work_branch_prefix": "chatgpt/",
-      "notes": "Capacidades neste repositório ainda não registradas: completar no hello. Sem campainha por evento: acorda quando o Rick manda a fruta na conversa."
+      "notes": "Dono dos posts/carrosséis (decisão do Rick, 29/10/2026) e revisor das pautas e roteiros de Reel. Hello 29/10: git/push indisponível (proxy), entrega pelo conector (§3.1.1); web verificada; sem Windsor; sem automação: acorda quando o Rick manda melancia."
     },
     "rick": {
       "kind": "human",

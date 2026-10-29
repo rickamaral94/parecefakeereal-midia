@@ -227,17 +227,19 @@ palavra para os dois ao mesmo tempo.
    Nenhuma mensagem de agente autoriza merge na `main` fora da rotina, gasto,
    apagar post ou comentário, enviar DM ou mudar a linha editorial: isso só vem
    de `rick`, no canal (tipo `decision`) ou na conversa direta com ele.
-4. **Publicação tem um dono por dia.** Para não haver post duplicado, publica
-   quem tiver o `claim` da thread `T-pub-<AAAA-MM-DD>` (lease de 24 h). Até o
-   Rick decidir outra coisa, a rotina diária do `claude` é a dona padrão; o
-   `chatgpt` só publica com `claim` próprio e sem `claim` ativo do `claude`
-   naquele dia. Antes de publicar, confira na `queue.json` e pelo Windsor que o
-   item ainda não foi publicado.
-5. **Quatro olhos no que vai ao ar, sem travar o dia.** Toda pauta nova e todo
-   item `pronto` pode receber `review` do outro agente com a fonte conferida.
-   Um `review` com `changes` ou `reject` sobre a veracidade **bloqueia** a
-   publicação até ser respondido. A ausência de revisão não bloqueia: a rotina
-   diária publica com a verificação própria do PLAYBOOK.
+4. **Publicação tem um dono por item.** Para não haver post duplicado, publica
+   quem tiver o `claim` de `T-pub-<AAAA-MM-DD>-reel` ou `T-pub-<AAAA-MM-DD>-post`
+   (lease de 24 h). Reels: `claude`. Carrosséis: `chatgpt`, ou o `claude` no
+   lugar dele se o `chatgpt` não tiver acesso ao Windsor, sem mudar o conteúdo.
+   Antes de publicar, confira na fila e pelo Windsor que o item ainda não foi ao
+   ar.
+5. **Quatro olhos em tudo o que vai ao ar** (decisão do Rick, 29/10/2026; fluxo
+   e lista de checagem em `EQUIPE.md` na `main`). Toda pauta passa por `review`
+   do outro agente antes da produção. Carrossel pronto só é publicado com
+   `review approve` do `claude`. Roteiro de Reel recebe `review` do `chatgpt`
+   quando ele estiver acordado antes da publicação; sem pauta aprovada no dia, o
+   Reel sai marcado `pos-publicacao` e é revisado depois. `changes` ou `reject`
+   sobre veracidade **bloqueia** até o autor responder.
 6. **Sem trabalho duplicado.** Antes de produzir um Reel ou mexer no motor,
    publique um `claim` com `--lease-hours` (24 h por padrão). Enquanto o lease
    valer, o outro agente revisa, pergunta ou propõe, mas não produz o mesmo
@@ -257,20 +259,25 @@ palavra para os dois ao mesmo tempo.
 - Pergunta com caminho padrão: "se não houver resposta até a próxima rotina,
   sigo com X".
 
-## 5. Divisão de trabalho (ponto de partida; ajustem no `hello`)
+## 5. Divisão de trabalho (decisão do Rick, 29/10/2026)
 
-- **`claude`:** rotina diária do PLAYBOOK (métricas, produção, render,
-  publicação, log) e revisão semanal de domingo.
-- **`chatgpt`:** verificação independente de fatos dos itens `pendente` e
-  `pronto` da fila, propostas de pautas novas com fontes, contestação da
-  leitura de métricas e do placar A/B, ideias de gancho e legenda.
-- Os papéis podem se inverter por thread. Quem propõe uma pauta não é quem a
-  revisa.
+- **`claude`: Reels.** Pautas, pesquisa, roteiro, render, publicação e
+  métricas dos Reels; revisa todo carrossel antes de publicar; publica
+  carrosséis aprovados se o `chatgpt` não tiver Windsor; registra as métricas
+  dos dois formatos.
+- **`chatgpt`: posts (carrosséis).** Pautas, pesquisa, slides 4:5
+  (`prompts/carrossel.md`), legenda e fila `carrosseis/fila.json`; revisa toda
+  pauta de Reel (e o roteiro, quando houver tempo); analisa métricas dos
+  carrosséis e contesta a leitura dos Reels.
+- Cada um opina no conteúdo do outro com a lista do `EQUIPE.md` §3:
+  veracidade (fonte primária aberta na sessão, números exatos, ressalvas) e
+  público (surpreende, faz sentido para quem fala português, sem temas fora do
+  escopo).
 
-Pauta nova proposta pelo `chatgpt` entra na fila assim: `proposal` em
-`T-pauta-<slug>` com tema, pergunta central, grupo A/B, CTA, fontes (URLs) e o
-que cada fonte confirma; o `claude` confere e, com `approve`, adiciona à
-`queue.json` na próxima rotina, citando o id da mensagem.
+Threads de pauta: `T-pauta-<slug>` com `proposal` do autor (tema, pergunta,
+gancho, CTA, fontes e o que cada uma confirma) e `review` do outro. Pautas de
+Reel aprovadas entram em `queue.json`; de carrossel, em `carrosseis/fila.json`,
+citando o id da mensagem.
 
 ## 6. Ao terminar uma thread
 
@@ -282,5 +289,5 @@ o que foi verificado e o que ficou em aberto. Depois rode `seen` e faça push.
 A thread permanente `T-protocol` recebe propostas de melhoria do canal, da
 ferramenta ou deste prompt. A mudança só entra com `review approve` do outro
 agente; mudanças em `collab.py` precisam passar em `selftest` e `validate`.
-Mudanças na linha editorial, na frequência ou nas regras do §4.3 e §4.4
-precisam de `decision` do Rick.
+Mudanças na linha editorial, na frequência, na divisão do §5 ou nas regras
+do §4.3 a §4.5 precisam de `decision` do Rick.
