@@ -5,9 +5,9 @@
       "ordem": 1,
       "id": "reel1_soldagem_a_frio",
       "video": "videos/reel1_soldagem_a_frio.mp4",
-      "status": "agendado",
-      "postado_em": null,
-      "link_tiktok": null,
+      "status": "postado",
+      "postado_em": "2026-10-29",
+      "link_tiktok": "https://www.tiktok.com/@Parece fake, é real/video/7702113481624931590",
       "metricool": {
         "brand_id": "7445255",
         "post_id": 410215827,
@@ -17,10 +17,14 @@
         "auto_publish": true,
         "agendado_para": "2026-10-29T12:34:00-03:00",
         "is_aigc": true,
-        "video_cover_milliseconds": 2000
+        "video_cover_milliseconds": 2000,
+        "provider_status": "PUBLISHED",
+        "detailed_status": "Published",
+        "tiktok_id": "7702113481624931590",
+        "confirmado_em": "2026-10-29T15:35:52Z"
       },
       "bloqueios": [],
-      "observacao": "Rick autorizou publicar em 29/10. Metricool aceitou agendamento para 12:34 BRT; aguardando confirmação do TikTok. Não publicar cópia manual."
+      "observacao": "Publicação confirmada por releitura do Metricool: provider TikTok PUBLISHED e ID final 7702113481624931590. O ID temporário no estado AWAITING_CONFIRMATION era diferente; usar o ID final. URL retornada pelo conector usa nome de exibição; abertura pública não confirmada pelo navegador."
     },
     {
       "ordem": 2,

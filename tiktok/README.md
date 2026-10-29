@@ -6,7 +6,7 @@ Rick autorizou o primeiro TikTok em 29/10/2026: “Melancia / Pode publicar”. 
 
 - Marca Parece fake, é real, brandId 7445255, fuso America/Sao_Paulo.
 - Soldagem a frio: agendamento aceito para 29/10 às 12:34 BRT, ID 410215827, UUID -7094515269486949826. [Abrir no planner](https://app.metricool.com/planner/calendar?blogId=7445255&openWithPostUuid=-7094515269486949826).
-- `draft=false`, `autoPublish=true`, privacidade PUBLIC_TO_EVERYONE. Aceite do agendamento ainda não comprova publicação no TikTok.
+- `draft=false`, `autoPublish=true`, privacidade PUBLIC_TO_EVERYONE. Publicação confirmada por releitura: provider `PUBLISHED`, `detailedStatus=Published`, ID final TikTok `7702113481624931590`. O ID intermediário 7702113269397538823 não era o ID final. A URL retornada usa nome de exibição; navegação pública não foi confirmada nesta ferramenta. Não reenviar.
 - Rótulo nativo IA: `tiktokData.isAigc=true` enviado e confirmado por releitura do rascunho antes da ativação. Capa: `videoCoverMilliseconds=2000`.
 - Upload do MP4 original H.264/AAC, 1080×1920, 48,03 s; blob main aa665c381104041de651156e656565e60286cc84. Sem música adicionada.
 - A API exige caminho local no upload e `tiktokData.title`. Ao atualizar, devolve outro ID; UUID permanece. Os blocos twitterData/instagramData retornados como defaults na leitura devem ser omitidos na escrita de um post apenas TikTok: o validador rejeita redes ausentes de providers.
