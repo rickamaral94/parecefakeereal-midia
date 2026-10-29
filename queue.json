@@ -243,12 +243,19 @@
       "id": "reel6_patos_borracha",
       "tema": "Patinhos de borracha no oceano (1992) e o estudo de correntes",
       "grupo": "B",
-      "gancho": "Milhares de patinhos de borracha caíram no mar — e viraram ciência.",
+      "gancho": "Milhares de patinhos de plástico caíram no mar — e viraram ciência.",
       "cta": "enviar a alguém",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "Ebbesmeyer & Ingraham, Eos 75(37):425-432 (1994), DOI 10.1029/94EO01056 — https://marineinfo.org/id/publication/356622",
+        "Ebbesmeyer, Ingraham, Royer & Grosch, 'Tub toys orbit the Pacific Subarctic Gyre', Eos 88(1):1,4 (2007) — https://faculty.wallin.wwu.edu/envr325/tubtoys_ocean_circ.pdf",
+        "https://blog.sciencemuseum.org.uk/a-quacking-tale/",
+        "https://oceanmotion.org/html/gatheringdata/flotsam.htm"
+      ],
       "metricas": [],
-      "voz": "M3"
+      "voz": "M3",
+      "video": "videos/reel6_patos.mp4",
+      "revisao_2026-10-29": "Verificado nesta execução: queda em 10/01/1992 no Pacífico Norte (44°N, 178°E), ~28.800 brinquedos (Eos 2007; 'about 29,000' em Eos 1994 e Science Museum); chegada a Sitka em 1992 (Eos 2007: ago–set/1992; Eos 1994 e Science Museum: ~10 meses depois — por isso o vídeo diz só 'no mesmo ano'); OSCURS calibrado com os encalhes; ~3 anos por volta no giro subártico (média 2,99 a, com outros flutuantes e dados da água); saídas para o Ártico e o giro subtropical. Não usado (não verificado em fonte primária): chegada ao Atlântico/Reino Unido e porcentagem exata recuperada. 'Borracha' trocado por 'plástico'. 47,3 s, voz M3, speed 1.22."
     },
     {
       "id": "reel7_formigas_jangada",
