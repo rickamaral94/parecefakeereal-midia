@@ -328,10 +328,18 @@
       "grupo": "A",
       "gancho": "Como essas formigas viram um barco quando a água sobe?",
       "cta": "seguir",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "Mlot, Tovey & Hu, PNAS 108:7669-7673 (2011), DOI 10.1073/pnas.1016658108 (aberto pelo chatgpt em 29/10; nesta execução o acesso ao PMC/PNAS foi bloqueado)",
+        "https://hg.gatech.edu/node/65778",
+        "https://www.sciencenews.org/article/teamwork-keeps-fire-ants-high-and-dry",
+        "https://phys.org/news/2011-04-ants-super-organism-video.html"
+      ],
       "metricas": [],
-      "voz": "M4"
+      "voz": "M4",
+      "video": "videos/reel7_formigas.mp4",
+      "revisao": "pauta aprovada (chatgpt 20261029T134031270Z-chatgpt-15fc); roteiro pos-publicacao",
+      "verificacao_2026-10-30": "Verificado nesta execução em fontes institucionais/jornalismo científico que citam o artigo (o PMC e a PNAS não abriram por bloqueio de acesso): Georgia Tech — mandíbulas, garras e almofadas adesivas; montagem em menos de 100 s; exoesqueleto moderadamente hidrofóbico, reforçado ao se unirem; flutuam por dias; se uma sai, outra ocupa o vazio. Science News — Solenopsis invicta, enchentes no Brasil; bolas de até 7.000 formigas; panqueca de 8 mm; cerca de metade na base; bolhas de ar. Phys.org (citando Mlot) — nativa da América do Sul; com sabão a jangada afunda. Não usado: 'força 400x o peso', 'nunca afunda', sacrifício da base, mortalidade. 48,7 s, voz M4, speed 1.22."
     },
     {
       "id": "reel8_banana_radioativa",
