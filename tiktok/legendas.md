@@ -123,3 +123,23 @@ Manda pra quem conversa com as plantas. 🪴
 
 #PareceFakeEReal #Plantas #Botânica #Ciência #Curiosidades
 ```
+
+---
+
+## 7. Formigas-de-fogo em jangada
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel7_formigas.mp4
+
+```
+Formigas que viram um barco quando a água sobe. 🐜🌊
+
+Quando o ninho alaga, a formiga-de-fogo (nativa da América do Sul) forma uma jangada viva: em menos de 100 segundos, milhares se seguram umas nas outras e prendem bolhas de ar entre os corpos.
+
+Ressalva: estudo com essa espécie, em laboratório. Com sabão na água, a jangada afunda.
+
+Fonte: Mlot, Tovey & Hu, PNAS (2011). Ilustração autoral, locução sintética.
+
+Segue pra mais ciência que parece mentira.
+
+#PareceFakeEReal #Formigas #Biologia #Ciência #Curiosidades
+```
