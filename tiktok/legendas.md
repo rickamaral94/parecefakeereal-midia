@@ -143,3 +143,23 @@ Segue pra mais ciência que parece mentira.
 
 #PareceFakeEReal #Formigas #Biologia #Ciência #Curiosidades
 ```
+
+---
+
+## 8. Banana radioativa
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel8_banana.mp4
+
+```
+A banana da sua fruteira é radioativa. 🍌☢️
+
+Vem do potássio: uma pequena fração dele é potássio-40, um isótopo instável. A EPA estima 0,1 microsievert por banana, cerca de um centésimo da radiação natural de um dia, e o corpo não acumula o excesso de potássio.
+
+Ressalva: é radioatividade natural, ínfima e sem risco; o valor é uma estimativa média. Curiosidade, não conselho de saúde.
+
+Fontes: EPA, McGill OSS e Health Physics Society. Ilustração autoral, locução sintética.
+
+Manda pra quem come banana todo dia.
+
+#PareceFakeEReal #Radioatividade #Física #Ciência #Curiosidades
+```

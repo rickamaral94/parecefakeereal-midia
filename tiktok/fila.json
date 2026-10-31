@@ -73,6 +73,14 @@
       "status": "pronto",
       "postado_em": null,
       "link_tiktok": null
+    },
+    {
+      "ordem": 8,
+      "id": "reel8_banana_radioativa",
+      "video": "videos/reel8_banana.mp4",
+      "status": "pronto",
+      "postado_em": null,
+      "link_tiktok": null
     }
   ]
 }

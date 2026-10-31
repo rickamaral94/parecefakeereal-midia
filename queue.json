@@ -1,441 +1,455 @@
 {
- "temas_usados": [
-  "concreto romano / fissuras",
-  "polvo (camuflagem, três corações)",
-  "Vênus (dia mais longo que o ano)",
-  "mecanismo de Anticítera",
-  "raios / trovão",
-  "vidro antigo que 'escorre'",
-  "tubarões mais antigos que florestas",
-  "Torre Eiffel muda de tamanho",
-  "fezes cúbicas do wombat",
-  "cheiro de chuva / petricor",
-  "regeneração do axolote",
-  "ilusão da Lua",
-  "focinho úmido do cachorro",
-  "caixa-preta laranja",
-  "soldagem a frio no espaço",
-  "plantas emitem cliques ultrassônicos",
-  "tardígrados no vácuo",
-  "efeito Mpemba",
-  "nitinol / memória de forma",
-  "patinhos de borracha no Pacífico (1992)",
-  "gálio derrete na mão (carrossel)",
-  "formigas-de-fogo em jangada",
-  "banana radioativa (potássio-40)"
- ],
- "fila": [
-  {
-   "id": "reel1_soldagem_a_frio",
-   "tema": "Soldagem a frio no espaço",
-   "grupo": "A",
-   "gancho": "Por que dois metais podem grudar no espaço só de encostar?",
-   "cta": "seguir",
-   "status": "publicado",
-   "media_id": "18215374360358290",
-   "publicado_em": "2026-10-23 07:0x (São Paulo)",
-   "video": "videos/reel1_soldagem_a_frio.mp4",
-   "fontes": [
-    "https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum",
-    "https://issnationallab.org/press-releases/spacex-crs31-mcast-astrobeat-welding"
-   ],
-   "metricas": [
+  "temas_usados": [
+    "concreto romano / fissuras",
+    "polvo (camuflagem, três corações)",
+    "Vênus (dia mais longo que o ano)",
+    "mecanismo de Anticítera",
+    "raios / trovão",
+    "vidro antigo que 'escorre'",
+    "tubarões mais antigos que florestas",
+    "Torre Eiffel muda de tamanho",
+    "fezes cúbicas do wombat",
+    "cheiro de chuva / petricor",
+    "regeneração do axolote",
+    "ilusão da Lua",
+    "focinho úmido do cachorro",
+    "caixa-preta laranja",
+    "soldagem a frio no espaço",
+    "plantas emitem cliques ultrassônicos",
+    "tardígrados no vácuo",
+    "efeito Mpemba",
+    "nitinol / memória de forma",
+    "patinhos de borracha no Pacífico (1992)",
+    "gálio derrete na mão (carrossel)",
+    "formigas-de-fogo em jangada",
+    "banana radioativa (potássio-40)"
+  ],
+  "fila": [
     {
-     "lido_em": "2026-10-24",
-     "horas_desde_publicacao": 24,
-     "alcance": 1297,
-     "views": 1475,
-     "curtidas": 33,
-     "compart": 1,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 20.66,
-     "pulo_3s": 0.27
+      "id": "reel1_soldagem_a_frio",
+      "tema": "Soldagem a frio no espaço",
+      "grupo": "A",
+      "gancho": "Por que dois metais podem grudar no espaço só de encostar?",
+      "cta": "seguir",
+      "status": "publicado",
+      "media_id": "18215374360358290",
+      "publicado_em": "2026-10-23 07:0x (São Paulo)",
+      "video": "videos/reel1_soldagem_a_frio.mp4",
+      "fontes": [
+        "https://www.esa.int/About_Us/ESA_Publications/STM-279_Assessment_of_the_Cold_Welding_between_Separable_Contact_due_to_Impact_and_Fretting_under_Vacuum",
+        "https://issnationallab.org/press-releases/spacex-crs31-mcast-astrobeat-welding"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-24",
+          "horas_desde_publicacao": 24,
+          "alcance": 1297,
+          "views": 1475,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-25",
+          "horas_desde_publicacao": 48,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 72,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 96,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 144,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
+        }
+      ],
+      "voz": "Faber (Piper)"
     },
     {
-     "lido_em": "2026-10-25",
-     "horas_desde_publicacao": 48,
-     "alcance": 1299,
-     "views": 1478,
-     "curtidas": 33,
-     "compart": 1,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 20.66,
-     "pulo_3s": 0.27
+      "id": "reel2_plantas",
+      "tema": "Plantas estressadas emitem cliques ultrassônicos",
+      "grupo": "B",
+      "gancho": "Esse tomateiro está fazendo barulho — e você não consegue ouvir.",
+      "cta": "enviar a alguém",
+      "status": "publicado",
+      "video": "videos/reel2_plantas.mp4",
+      "fontes": [
+        "Khait et al., Cell 186(7), 2023, DOI 10.1016/j.cell.2023.03.009",
+        "https://www.aftau.org/news_item/plants-emit-sounds-beyond-the-hearing-range-of-the-human-ear-tau-researchers-say"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-25",
+          "horas_desde_publicacao": 24,
+          "alcance": 109,
+          "views": 116,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.18,
+          "pulo_3s": 0.591
+        },
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 48,
+          "alcance": 109,
+          "views": 116,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.18,
+          "pulo_3s": 0.591
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 72,
+          "alcance": 110,
+          "views": 117,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.13,
+          "pulo_3s": 0.595
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 120,
+          "alcance": 110,
+          "views": 117,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.13,
+          "pulo_3s": 0.595
+        }
+      ],
+      "voz": "M3",
+      "revisao_2026-10-24": "Verificado no artigo (Fig. 1B: 35,4/h tomate seco, 11,0/h tabaco seco, 25,2/h tomate cortado, 15,2/h tabaco cortado; controles <1/h). Corrigidos: gráfico (~30–50/h -> 11 a 35/h), frase não verificada \"estalam antes de murchar\" trocada por padrão sobe-e-cai, audição de morcegos/insetos com \"provavelmente\". Re-render 49 s, voz M3.",
+      "media_id": "18178086088445300",
+      "publicado_em": "2026-10-24 07:19 (São Paulo)"
     },
     {
-     "lido_em": "2026-10-26",
-     "horas_desde_publicacao": 72,
-     "alcance": 1299,
-     "views": 1478,
-     "curtidas": 33,
-     "compart": 1,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 20.66,
-     "pulo_3s": 0.27
+      "id": "reel3_tardigrados",
+      "tema": "Tardígrados sobrevivem ao vácuo (FOTON-M3, 2007)",
+      "grupo": "A",
+      "gancho": "Como um animal sobreviveu ao vácuo do espaço sem traje?",
+      "cta": "seguir",
+      "status": "publicado",
+      "video": "videos/reel3_tardigrados.mp4",
+      "fontes": [
+        "Jönsson et al., Current Biology 18, R729–R731 (2008)",
+        "https://cordis.europa.eu/article/id/29839-water-bears-survive-space-environment-study-shows",
+        "https://www.sciencedaily.com/releases/2008/09/080908135906.htm"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-26",
+          "horas_desde_publicacao": 24,
+          "alcance": 309,
+          "views": 338,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.74,
+          "pulo_3s": 0.537
+        },
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 48,
+          "alcance": 315,
+          "views": 342,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.81,
+          "pulo_3s": 0.54
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 96,
+          "alcance": 315,
+          "views": 342,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.81,
+          "pulo_3s": 0.54
+        }
+      ],
+      "voz": "M4",
+      "revisao_2026-10-25": "Reverificado (ScienceDaily/Current Biology e CORDIS): FOTON-M3, set/2007, ESA; maioria sobreviveu ao vácuo+raios cósmicos; alguns sobreviveram a UV >1000x a superfície; sobreviventes se reproduziram; mortalidade alta com UV. Corrigido tamanho: 'cerca de 1 mm' -> 'até cerca de 1,5 mm' (fontes: 0,1 a 1,5 mm). Re-render 48,7 s, voz M4.",
+      "media_id": "18094804016654404",
+      "publicado_em": "2026-10-25 07:19 (São Paulo)"
     },
     {
-     "lido_em": "2026-10-27",
-     "horas_desde_publicacao": 96,
-     "alcance": 1299,
-     "views": 1478,
-     "curtidas": 33,
-     "compart": 1,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 20.66,
-     "pulo_3s": 0.27
+      "id": "reel4_mpemba",
+      "tema": "Efeito Mpemba: água quente pode congelar antes da fria?",
+      "grupo": "B",
+      "gancho": "Ele jurou: a água quente congelou antes.",
+      "cta": "comentar o palpite",
+      "status": "publicado",
+      "observacao": "Fenômeno contestado: apresentar como controvérsia real, sem afirmar que sempre acontece.",
+      "fontes": [
+        "Mpemba & Osborne, \"Cool?\", Physics Education 4(3):172 (1969); relato: https://www.theafricaiknow.org/articles/The-Mpemba-effect",
+        "Burridge & Linden, Scientific Reports 6, 37665 (2016), DOI 10.1038/srep37665 — https://spiral.imperial.ac.uk/entities/publication/e564f7d0-943c-4c21-8572-e99a90ee8639",
+        "Kumar & Bechhoefer, Nature (2020) — https://www.sciencenews.org/article/physics-new-experiment-hot-water-freeze-faster-cold-mpemba-effect ; https://phys.org/news/2020-08-mpemba-effect.html"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-27",
+          "horas_desde_publicacao": 24,
+          "alcance": 180,
+          "views": 202,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 10.09,
+          "pulo_3s": 0.381
+        },
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 72,
+          "alcance": 181,
+          "views": 203,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 10.08,
+          "pulo_3s": 0.379
+        }
+      ],
+      "voz": "M4",
+      "video": "videos/reel4_mpemba.mp4",
+      "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24.",
+      "media_id": "17931587052420379",
+      "publicado_em": "2026-10-26 07:21 (São Paulo)"
     },
     {
-     "lido_em": "2026-10-29",
-     "horas_desde_publicacao": 144,
-     "alcance": 1299,
-     "views": 1478,
-     "curtidas": 33,
-     "compart": 1,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 20.66,
-     "pulo_3s": 0.27
+      "id": "reel5_nitinol",
+      "tema": "Liga com memória de forma (nitinol)",
+      "grupo": "A",
+      "gancho": "Por que esse fio amassado volta a ficar reto só com calor?",
+      "cta": "salvar",
+      "status": "publicado",
+      "fontes": [
+        "https://doitpoms.ac.uk/ldplib/shape_memory/printall.php",
+        "Kauffman & Mayo, Chem. Educator (1997) — https://nnci.net/sites/default/files/2020-02/Story%20of%20Nitinol.pdf",
+        "https://spinoff.nasa.gov/node/11593",
+        "NASA CR-1232 (1968) — https://ntrs.nasa.gov/api/citations/19690002089/downloads/19690002089.pdf"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-29",
+          "horas_desde_publicacao": 48,
+          "alcance": 175,
+          "views": 185,
+          "curtidas": 4,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.9,
+          "pulo_3s": 0.409
+        },
+        {
+          "lido_em": "2026-10-30",
+          "horas_desde_publicacao": 72,
+          "alcance": 175,
+          "views": 185,
+          "curtidas": 4,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.89,
+          "pulo_3s": 0.409
+        }
+      ],
+      "voz": "M3",
+      "video": "videos/reel5_nitinol.mp4",
+      "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22.",
+      "media_id": "18429735796151264",
+      "publicado_em": "2026-10-27 07:22 (São Paulo)"
+    },
+    {
+      "id": "reel6_patos_borracha",
+      "tema": "Patinhos de borracha no oceano (1992) e o estudo de correntes",
+      "grupo": "B",
+      "gancho": "Milhares de patinhos de plástico caíram no mar — e viraram ciência.",
+      "cta": "enviar a alguém",
+      "status": "publicado",
+      "fontes": [
+        "Ebbesmeyer & Ingraham, Eos 75(37):425-432 (1994), DOI 10.1029/94EO01056 — https://marineinfo.org/id/publication/356622",
+        "Ebbesmeyer, Ingraham, Royer & Grosch, 'Tub toys orbit the Pacific Subarctic Gyre', Eos 88(1):1,4 (2007) — https://faculty.wallin.wwu.edu/envr325/tubtoys_ocean_circ.pdf",
+        "https://blog.sciencemuseum.org.uk/a-quacking-tale/",
+        "https://oceanmotion.org/html/gatheringdata/flotsam.htm"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-30",
+          "horas_desde_publicacao": 24,
+          "alcance": 147,
+          "views": 161,
+          "curtidas": 3,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 11.98,
+          "pulo_3s": 0.429
+        },
+        {
+          "lido_em": "2026-10-31",
+          "horas_desde_publicacao": 72,
+          "alcance": 149,
+          "views": 161,
+          "curtidas": 3,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 11.94,
+          "pulo_3s": 0.429
+        }
+      ],
+      "voz": "M3",
+      "video": "videos/reel6_patos.mp4",
+      "revisao_2026-10-29": "Verificado nesta execução: queda em 10/01/1992 no Pacífico Norte (44°N, 178°E), ~28.800 brinquedos (Eos 2007; 'about 29,000' em Eos 1994 e Science Museum); chegada a Sitka em 1992 (Eos 2007: ago–set/1992; Eos 1994 e Science Museum: ~10 meses depois — por isso o vídeo diz só 'no mesmo ano'); OSCURS calibrado com os encalhes; ~3 anos por volta no giro subártico (média 2,99 a, com outros flutuantes e dados da água); saídas para o Ártico e o giro subtropical. Não usado (não verificado em fonte primária): chegada ao Atlântico/Reino Unido e porcentagem exata recuperada. 'Borracha' trocado por 'plástico'. 47,3 s, voz M3, speed 1.22.",
+      "media_id": "18125673406693727",
+      "publicado_em": "2026-10-29 07:20 (São Paulo)"
+    },
+    {
+      "id": "reel7_formigas_jangada",
+      "tema": "Formigas-de-fogo formam jangadas vivas",
+      "grupo": "A",
+      "gancho": "Como essas formigas viram um barco quando a água sobe?",
+      "cta": "seguir",
+      "status": "publicado",
+      "fontes": [
+        "Mlot, Tovey & Hu, PNAS 108:7669-7673 (2011), DOI 10.1073/pnas.1016658108 (aberto pelo chatgpt em 29/10; nesta execução o acesso ao PMC/PNAS foi bloqueado)",
+        "https://hg.gatech.edu/node/65778",
+        "https://www.sciencenews.org/article/teamwork-keeps-fire-ants-high-and-dry",
+        "https://phys.org/news/2011-04-ants-super-organism-video.html"
+      ],
+      "metricas": [
+        {
+          "lido_em": "2026-10-31",
+          "horas_desde_publicacao": 24,
+          "alcance": 128,
+          "views": 157,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 16.81,
+          "pulo_3s": 0.444
+        }
+      ],
+      "voz": "M4",
+      "video": "videos/reel7_formigas.mp4",
+      "revisao": "pauta aprovada (15fc); roteiro pos-publicacao",
+      "verificacao_2026-10-30": "Verificado nesta execução em fontes institucionais/jornalismo científico que citam o artigo (o PMC e a PNAS não abriram por bloqueio de acesso): Georgia Tech — mandíbulas, garras e almofadas adesivas; montagem em menos de 100 s; exoesqueleto moderadamente hidrofóbico, reforçado ao se unirem; flutuam por dias; se uma sai, outra ocupa o vazio. Science News — Solenopsis invicta, enchentes no Brasil; bolas de até 7.000 formigas; panqueca de 8 mm; cerca de metade na base; bolhas de ar. Phys.org (citando Mlot) — nativa da América do Sul; com sabão a jangada afunda. Não usado: 'força 400x o peso', 'nunca afunda', sacrifício da base, mortalidade. 48,7 s, voz M4, speed 1.22.",
+      "media_id": "17939465346392592",
+      "publicado_em": "2026-10-30 07:27 (São Paulo)"
+    },
+    {
+      "id": "reel8_banana_radioativa",
+      "tema": "Bananas são levemente radioativas (potássio-40)",
+      "grupo": "B",
+      "gancho": "A banana da sua fruteira é radioativa.",
+      "cta": "enviar a alguém",
+      "status": "publicado",
+      "fontes": [
+        "https://www.epa.gov/radtown/natural-radioactivity-food",
+        "https://www.mcgill.ca/oss/article/you-asked/it-true-banana-radioactive",
+        "https://hps.org/publicinformation/ate/faqs/faqradbods.html"
+      ],
+      "metricas": [],
+      "voz": "M4",
+      "motivo": "Mecanismo físico claro (isótopo natural K-40); exige ressalva de dose ínfima e de que o corpo regula o potássio.",
+      "video": "videos/reel8_banana.mp4",
+      "revisao": "pauta aprovada (4c90); roteiro pos-publicacao",
+      "verificacao_2026-10-31": "Verificado nesta execução: EPA — bananas contêm radioatividade natural; pequena fração do potássio é radioativa; 0,1 µSv por banana; ~100 bananas = exposição natural de um dia; sem risco radiológico. McGill OSS — K-40 ~0,012% do potássio; meia-vida 1,3 bi anos; ~450 mg de K por banana; beta e gama; controle homeostático, sem acúmulo. HPS — abundância 0,0117%; meia-vida 1,28e9 anos; gama em ~10% dos decaimentos; corpo humano naturalmente radioativo (K-40 ~4–5 kBq em 70 kg). Não usado: soma de bananas como dosímetro, comparações alarmistas, Bq do corpo. 49,7 s, voz M4, speed 1.25.",
+      "media_id": "18099522269400559",
+      "publicado_em": "2026-10-31 07:20 (São Paulo)"
+    },
+    {
+      "id": "reel9_bolhas_sabao",
+      "tema": "Cores das bolhas de sabão (interferência em película fina)",
+      "grupo": "A",
+      "gancho": "Por que uma bolha de sabão transparente fica colorida?",
+      "cta": "salvar",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M3",
+      "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar."
+    },
+    {
+      "id": "reel10_sapo_congelado",
+      "tema": "Sapo-da-madeira congela no inverno e volta à vida (crioproteção com glicose)",
+      "grupo": "B",
+      "gancho": "Esse sapo congela no inverno — e volta a pular na primavera.",
+      "cta": "enviar a alguém",
+      "status": "pendente",
+      "fontes": [],
+      "voz": "M4",
+      "motivo": "Mecanismo fisiológico explicável (gelo fora das células, glicose como crioprotetor); proposta no canal T-pauta-sapo-congelado para revisão do chatgpt. Fontes a verificar na produção."
+    },
+    {
+      "id": "reel11_camarao_pistola",
+      "tema": "Camarão-pistola: o estalo vem de uma bolha de cavitação, não do choque das garras",
+      "grupo": "A",
+      "gancho": "Como um camarão de poucos centímetros faz um dos sons mais altos do mar?",
+      "cta": "salvar",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M3",
+      "motivo": "Mecanismo físico explicável (jato de água → bolha de cavitação que colapsa e estala; Versluis et al., Science 2000). Verificar na produção números de pressão/temperatura e evitar exageros ('mais quente que o Sol') sem fonte primária."
     }
-   ],
-   "voz": "Faber (Piper)"
-  },
-  {
-   "id": "reel2_plantas",
-   "tema": "Plantas estressadas emitem cliques ultrassônicos",
-   "grupo": "B",
-   "gancho": "Esse tomateiro está fazendo barulho — e você não consegue ouvir.",
-   "cta": "enviar a alguém",
-   "status": "publicado",
-   "video": "videos/reel2_plantas.mp4",
-   "fontes": [
-    "Khait et al., Cell 186(7), 2023, DOI 10.1016/j.cell.2023.03.009",
-    "https://www.aftau.org/news_item/plants-emit-sounds-beyond-the-hearing-range-of-the-human-ear-tau-researchers-say"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-25",
-     "horas_desde_publicacao": 24,
-     "alcance": 109,
-     "views": 116,
-     "curtidas": 1,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.18,
-     "pulo_3s": 0.591
-    },
-    {
-     "lido_em": "2026-10-26",
-     "horas_desde_publicacao": 48,
-     "alcance": 109,
-     "views": 116,
-     "curtidas": 1,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.18,
-     "pulo_3s": 0.591
-    },
-    {
-     "lido_em": "2026-10-27",
-     "horas_desde_publicacao": 72,
-     "alcance": 110,
-     "views": 117,
-     "curtidas": 1,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.13,
-     "pulo_3s": 0.595
-    },
-    {
-     "lido_em": "2026-10-29",
-     "horas_desde_publicacao": 120,
-     "alcance": 110,
-     "views": 117,
-     "curtidas": 1,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.13,
-     "pulo_3s": 0.595
-    }
-   ],
-   "voz": "M3",
-   "revisao_2026-10-24": "Verificado no artigo (Fig. 1B: 35,4/h tomate seco, 11,0/h tabaco seco, 25,2/h tomate cortado, 15,2/h tabaco cortado; controles <1/h). Corrigidos: gráfico (~30–50/h -> 11 a 35/h), frase não verificada \"estalam antes de murchar\" trocada por padrão sobe-e-cai, audição de morcegos/insetos com \"provavelmente\". Re-render 49 s, voz M3.",
-   "media_id": "18178086088445300",
-   "publicado_em": "2026-10-24 07:19 (São Paulo)"
-  },
-  {
-   "id": "reel3_tardigrados",
-   "tema": "Tardígrados sobrevivem ao vácuo (FOTON-M3, 2007)",
-   "grupo": "A",
-   "gancho": "Como um animal sobreviveu ao vácuo do espaço sem traje?",
-   "cta": "seguir",
-   "status": "publicado",
-   "video": "videos/reel3_tardigrados.mp4",
-   "fontes": [
-    "Jönsson et al., Current Biology 18, R729–R731 (2008)",
-    "https://cordis.europa.eu/article/id/29839-water-bears-survive-space-environment-study-shows",
-    "https://www.sciencedaily.com/releases/2008/09/080908135906.htm"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-26",
-     "horas_desde_publicacao": 24,
-     "alcance": 309,
-     "views": 338,
-     "curtidas": 5,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 12.74,
-     "pulo_3s": 0.537
-    },
-    {
-     "lido_em": "2026-10-27",
-     "horas_desde_publicacao": 48,
-     "alcance": 315,
-     "views": 342,
-     "curtidas": 5,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 12.81,
-     "pulo_3s": 0.54
-    },
-    {
-     "lido_em": "2026-10-29",
-     "horas_desde_publicacao": 96,
-     "alcance": 315,
-     "views": 342,
-     "curtidas": 5,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 12.81,
-     "pulo_3s": 0.54
-    }
-   ],
-   "voz": "M4",
-   "revisao_2026-10-25": "Reverificado (ScienceDaily/Current Biology e CORDIS): FOTON-M3, set/2007, ESA; maioria sobreviveu ao vácuo+raios cósmicos; alguns sobreviveram a UV >1000x a superfície; sobreviventes se reproduziram; mortalidade alta com UV. Corrigido tamanho: 'cerca de 1 mm' -> 'até cerca de 1,5 mm' (fontes: 0,1 a 1,5 mm). Re-render 48,7 s, voz M4.",
-   "media_id": "18094804016654404",
-   "publicado_em": "2026-10-25 07:19 (São Paulo)"
-  },
-  {
-   "id": "reel4_mpemba",
-   "tema": "Efeito Mpemba: água quente pode congelar antes da fria?",
-   "grupo": "B",
-   "gancho": "Ele jurou: a água quente congelou antes.",
-   "cta": "comentar o palpite",
-   "status": "publicado",
-   "observacao": "Fenômeno contestado: apresentar como controvérsia real, sem afirmar que sempre acontece.",
-   "fontes": [
-    "Mpemba & Osborne, \"Cool?\", Physics Education 4(3):172 (1969); relato: https://www.theafricaiknow.org/articles/The-Mpemba-effect",
-    "Burridge & Linden, Scientific Reports 6, 37665 (2016), DOI 10.1038/srep37665 — https://spiral.imperial.ac.uk/entities/publication/e564f7d0-943c-4c21-8572-e99a90ee8639",
-    "Kumar & Bechhoefer, Nature (2020) — https://www.sciencenews.org/article/physics-new-experiment-hot-water-freeze-faster-cold-mpemba-effect ; https://phys.org/news/2020-08-mpemba-effect.html"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-27",
-     "horas_desde_publicacao": 24,
-     "alcance": 180,
-     "views": 202,
-     "curtidas": 5,
-     "compart": 0,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 10.09,
-     "pulo_3s": 0.381
-    },
-    {
-     "lido_em": "2026-10-29",
-     "horas_desde_publicacao": 72,
-     "alcance": 181,
-     "views": 203,
-     "curtidas": 5,
-     "compart": 0,
-     "salvos": 1,
-     "comentarios": 0,
-     "tempo_medio_s": 10.08,
-     "pulo_3s": 0.379
-    }
-   ],
-   "voz": "M4",
-   "video": "videos/reel4_mpemba.mp4",
-   "revisao_2026-10-26": "Verificado nesta execução: relato de 1963 (Magamba, Tanzânia, sorvete) e artigo de 1969 com Osborne; Burridge & Linden 2016 concluem 'no evidence to support meaningful observations'; Kumar & Bechhoefer 2020 usaram microesferas de vidro de 1,5 µm, não água, e Raz diz 'we don't know whether this is the effect in water'. Apresentado como controvérsia. Não usado (não verificado): Aristóteles/Bacon/Descartes e posição do termômetro. Gancho B em afirmação ('Ele jurou...'). 48,4 s, voz M4, speed 1.24.",
-   "media_id": "17931587052420379",
-   "publicado_em": "2026-10-26 07:21 (São Paulo)"
-  },
-  {
-   "id": "reel5_nitinol",
-   "tema": "Liga com memória de forma (nitinol)",
-   "grupo": "A",
-   "gancho": "Por que esse fio amassado volta a ficar reto só com calor?",
-   "cta": "salvar",
-   "status": "publicado",
-   "fontes": [
-    "https://doitpoms.ac.uk/ldplib/shape_memory/printall.php",
-    "Kauffman & Mayo, Chem. Educator (1997) — https://nnci.net/sites/default/files/2020-02/Story%20of%20Nitinol.pdf",
-    "https://spinoff.nasa.gov/node/11593",
-    "NASA CR-1232 (1968) — https://ntrs.nasa.gov/api/citations/19690002089/downloads/19690002089.pdf"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-29",
-     "horas_desde_publicacao": 48,
-     "alcance": 175,
-     "views": 185,
-     "curtidas": 4,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.9,
-     "pulo_3s": 0.409
-    },
-    {
-     "lido_em": "2026-10-30",
-     "horas_desde_publicacao": 72,
-     "alcance": 175,
-     "views": 185,
-     "curtidas": 4,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 7.89,
-     "pulo_3s": 0.409
-    }
-   ],
-   "voz": "M3",
-   "video": "videos/reel5_nitinol.mp4",
-   "revisao_2026-10-27": "Verificado nesta execução: mecanismo martensita/austenita, maclação sem troca de vizinhos, treino a ~400–500 °C, forma mantida ao esfriar (DoITPoMS/Cambridge); nome Ni+Ti+NOL e 1961 no NOL, anedota do isqueiro de cachimbo (Kauffman & Mayo 1997); usos em ortodontia e stents (NASA Spinoff); NASA CR-1232 confirma recuperação da forma acima da temperatura de transição. Gancho ajustado de 'sozinho' para 'só com calor' (precisa de aquecimento). Não usado: temperaturas de transição específicas. 48,8 s, voz M3, speed 1.22.",
-   "media_id": "18429735796151264",
-   "publicado_em": "2026-10-27 07:22 (São Paulo)"
-  },
-  {
-   "id": "reel6_patos_borracha",
-   "tema": "Patinhos de borracha no oceano (1992) e o estudo de correntes",
-   "grupo": "B",
-   "gancho": "Milhares de patinhos de plástico caíram no mar — e viraram ciência.",
-   "cta": "enviar a alguém",
-   "status": "publicado",
-   "fontes": [
-    "Ebbesmeyer & Ingraham, Eos 75(37):425-432 (1994), DOI 10.1029/94EO01056 — https://marineinfo.org/id/publication/356622",
-    "Ebbesmeyer, Ingraham, Royer & Grosch, 'Tub toys orbit the Pacific Subarctic Gyre', Eos 88(1):1,4 (2007) — https://faculty.wallin.wwu.edu/envr325/tubtoys_ocean_circ.pdf",
-    "https://blog.sciencemuseum.org.uk/a-quacking-tale/",
-    "https://oceanmotion.org/html/gatheringdata/flotsam.htm"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-30",
-     "horas_desde_publicacao": 24,
-     "alcance": 147,
-     "views": 161,
-     "curtidas": 3,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 11.98,
-     "pulo_3s": 0.429
-    },
-    {
-     "lido_em": "2026-10-31",
-     "horas_desde_publicacao": 72,
-     "alcance": 149,
-     "views": 161,
-     "curtidas": 3,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 11.94,
-     "pulo_3s": 0.429
-    }
-   ],
-   "voz": "M3",
-   "video": "videos/reel6_patos.mp4",
-   "revisao_2026-10-29": "Verificado nesta execução: queda em 10/01/1992 no Pacífico Norte (44°N, 178°E), ~28.800 brinquedos (Eos 2007; 'about 29,000' em Eos 1994 e Science Museum); chegada a Sitka em 1992 (Eos 2007: ago–set/1992; Eos 1994 e Science Museum: ~10 meses depois — por isso o vídeo diz só 'no mesmo ano'); OSCURS calibrado com os encalhes; ~3 anos por volta no giro subártico (média 2,99 a, com outros flutuantes e dados da água); saídas para o Ártico e o giro subtropical. Não usado (não verificado em fonte primária): chegada ao Atlântico/Reino Unido e porcentagem exata recuperada. 'Borracha' trocado por 'plástico'. 47,3 s, voz M3, speed 1.22.",
-   "media_id": "18125673406693727",
-   "publicado_em": "2026-10-29 07:20 (São Paulo)"
-  },
-  {
-   "id": "reel7_formigas_jangada",
-   "tema": "Formigas-de-fogo formam jangadas vivas",
-   "grupo": "A",
-   "gancho": "Como essas formigas viram um barco quando a água sobe?",
-   "cta": "seguir",
-   "status": "publicado",
-   "fontes": [
-    "Mlot, Tovey & Hu, PNAS 108:7669-7673 (2011), DOI 10.1073/pnas.1016658108 (aberto pelo chatgpt em 29/10; nesta execução o acesso ao PMC/PNAS foi bloqueado)",
-    "https://hg.gatech.edu/node/65778",
-    "https://www.sciencenews.org/article/teamwork-keeps-fire-ants-high-and-dry",
-    "https://phys.org/news/2011-04-ants-super-organism-video.html"
-   ],
-   "metricas": [
-    {
-     "lido_em": "2026-10-31",
-     "horas_desde_publicacao": 24,
-     "alcance": 128,
-     "views": 157,
-     "curtidas": 1,
-     "compart": 0,
-     "salvos": 0,
-     "comentarios": 0,
-     "tempo_medio_s": 16.81,
-     "pulo_3s": 0.444
-    }
-   ],
-   "voz": "M4",
-   "video": "videos/reel7_formigas.mp4",
-   "revisao": "pauta aprovada (15fc); roteiro pos-publicacao",
-   "verificacao_2026-10-30": "Verificado nesta execução em fontes institucionais/jornalismo científico que citam o artigo (o PMC e a PNAS não abriram por bloqueio de acesso): Georgia Tech — mandíbulas, garras e almofadas adesivas; montagem em menos de 100 s; exoesqueleto moderadamente hidrofóbico, reforçado ao se unirem; flutuam por dias; se uma sai, outra ocupa o vazio. Science News — Solenopsis invicta, enchentes no Brasil; bolas de até 7.000 formigas; panqueca de 8 mm; cerca de metade na base; bolhas de ar. Phys.org (citando Mlot) — nativa da América do Sul; com sabão a jangada afunda. Não usado: 'força 400x o peso', 'nunca afunda', sacrifício da base, mortalidade. 48,7 s, voz M4, speed 1.22.",
-   "media_id": "17939465346392592",
-   "publicado_em": "2026-10-30 07:27 (São Paulo)"
-  },
-  {
-   "id": "reel8_banana_radioativa",
-   "tema": "Bananas são levemente radioativas (potássio-40)",
-   "grupo": "B",
-   "gancho": "A banana da sua fruteira é radioativa.",
-   "cta": "enviar a alguém",
-   "status": "pronto",
-   "fontes": [
-    "https://www.epa.gov/radtown/natural-radioactivity-food",
-    "https://www.mcgill.ca/oss/article/you-asked/it-true-banana-radioactive",
-    "https://hps.org/publicinformation/ate/faqs/faqradbods.html"
-   ],
-   "metricas": [],
-   "voz": "M4",
-   "motivo": "Mecanismo físico claro (isótopo natural K-40); exige ressalva de dose ínfima e de que o corpo regula o potássio.",
-   "video": "videos/reel8_banana.mp4",
-   "revisao": "pauta aprovada (4c90); roteiro pos-publicacao",
-   "verificacao_2026-10-31": "Verificado nesta execução: EPA — bananas contêm radioatividade natural; pequena fração do potássio é radioativa; 0,1 µSv por banana; ~100 bananas = exposição natural de um dia; sem risco radiológico. McGill OSS — K-40 ~0,012% do potássio; meia-vida 1,3 bi anos; ~450 mg de K por banana; beta e gama; controle homeostático, sem acúmulo. HPS — abundância 0,0117%; meia-vida 1,28e9 anos; gama em ~10% dos decaimentos; corpo humano naturalmente radioativo (K-40 ~4–5 kBq em 70 kg). Não usado: soma de bananas como dosímetro, comparações alarmistas, Bq do corpo. 49,7 s, voz M4, speed 1.25."
-  },
-  {
-   "id": "reel9_bolhas_sabao",
-   "tema": "Cores das bolhas de sabão (interferência em película fina)",
-   "grupo": "A",
-   "gancho": "Por que uma bolha de sabão transparente fica colorida?",
-   "cta": "salvar",
-   "status": "pendente",
-   "fontes": [],
-   "metricas": [],
-   "voz": "M3",
-   "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar."
-  },
-  {
-   "id": "reel10_sapo_congelado",
-   "tema": "Sapo-da-madeira congela no inverno e volta à vida (crioproteção com glicose)",
-   "grupo": "B",
-   "gancho": "Esse sapo congela no inverno — e volta a pular na primavera.",
-   "cta": "enviar a alguém",
-   "status": "pendente",
-   "fontes": [],
-   "voz": "M4",
-   "motivo": "Mecanismo fisiológico explicável (gelo fora das células, glicose como crioprotetor); proposta no canal T-pauta-sapo-congelado para revisão do chatgpt. Fontes a verificar na produção."
-  }
- ]
+  ]
 }
