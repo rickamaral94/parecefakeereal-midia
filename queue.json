@@ -99,6 +99,18 @@
           "comentarios": 0,
           "tempo_medio_s": 20.66,
           "pulo_3s": 0.27
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 216,
+          "alcance": 1299,
+          "views": 1478,
+          "curtidas": 33,
+          "compart": 1,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 20.66,
+          "pulo_3s": 0.27
         }
       ],
       "voz": "Faber (Piper)"
@@ -163,6 +175,18 @@
           "comentarios": 0,
           "tempo_medio_s": 7.13,
           "pulo_3s": 0.595
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 192,
+          "alcance": 110,
+          "views": 117,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.13,
+          "pulo_3s": 0.595
         }
       ],
       "voz": "M3",
@@ -219,6 +243,18 @@
           "comentarios": 0,
           "tempo_medio_s": 12.81,
           "pulo_3s": 0.54
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 168,
+          "alcance": 315,
+          "views": 342,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 12.81,
+          "pulo_3s": 0.54
         }
       ],
       "voz": "M4",
@@ -263,6 +299,18 @@
           "comentarios": 0,
           "tempo_medio_s": 10.08,
           "pulo_3s": 0.379
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 144,
+          "alcance": 181,
+          "views": 203,
+          "curtidas": 6,
+          "compart": 0,
+          "salvos": 1,
+          "comentarios": 0,
+          "tempo_medio_s": 10.05,
+          "pulo_3s": 0.379
         }
       ],
       "voz": "M4",
@@ -300,6 +348,18 @@
         {
           "lido_em": "2026-10-30",
           "horas_desde_publicacao": 72,
+          "alcance": 175,
+          "views": 185,
+          "curtidas": 4,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.89,
+          "pulo_3s": 0.409
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 120,
           "alcance": 175,
           "views": 185,
           "curtidas": 4,
@@ -353,6 +413,18 @@
           "comentarios": 0,
           "tempo_medio_s": 11.94,
           "pulo_3s": 0.429
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 72,
+          "alcance": 149,
+          "views": 162,
+          "curtidas": 3,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 11.86,
+          "pulo_3s": 0.432
         }
       ],
       "voz": "M3",
@@ -386,6 +458,18 @@
           "comentarios": 0,
           "tempo_medio_s": 16.81,
           "pulo_3s": 0.444
+        },
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 48,
+          "alcance": 128,
+          "views": 158,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 16.7,
+          "pulo_3s": 0.448
         }
       ],
       "voz": "M4",
@@ -407,7 +491,20 @@
         "https://www.mcgill.ca/oss/article/you-asked/it-true-banana-radioactive",
         "https://hps.org/publicinformation/ate/faqs/faqradbods.html"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-11-01",
+          "horas_desde_publicacao": 24,
+          "alcance": 114,
+          "views": 128,
+          "curtidas": 3,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 9.3,
+          "pulo_3s": 0.526
+        }
+      ],
       "voz": "M4",
       "motivo": "Mecanismo físico claro (isótopo natural K-40); exige ressalva de dose ínfima e de que o corpo regula o potássio.",
       "video": "videos/reel8_banana.mp4",
@@ -422,11 +519,19 @@
       "grupo": "A",
       "gancho": "Por que uma bolha de sabão transparente fica colorida?",
       "cta": "salvar",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "https://annex.exploratorium.edu/ronh/bubbles/bubble_colors.html",
+        "https://webexhibits.org/causesofcolor/15E.html",
+        "https://www.sciencenews.org/article/shimmering-soap-bubbles-have-dark-side"
+      ],
       "metricas": [],
       "voz": "M3",
-      "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar."
+      "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar.",
+      "video": "videos/reel9_bolhas_sabao.mp4",
+      "revisao": "pos-publicacao",
+      "review_pauta": "20261029T135310121Z-chatgpt-ada7",
+      "duracao_s": 48.6
     },
     {
       "id": "reel10_sapo_congelado",
@@ -450,6 +555,18 @@
       "metricas": [],
       "voz": "M3",
       "motivo": "Mecanismo físico explicável (jato de água → bolha de cavitação que colapsa e estala; Versluis et al., Science 2000). Verificar na produção números de pressão/temperatura e evitar exageros ('mais quente que o Sol') sem fonte primária."
+    },
+    {
+      "id": "reel12_leidenfrost",
+      "tema": "Efeito Leidenfrost: gota de água 'flutua' e dança numa frigideira muito quente",
+      "grupo": "B",
+      "gancho": "Numa frigideira bem quente, a gota de água não ferve na hora: ela flutua.",
+      "cta": "seguir",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M4",
+      "motivo": "Mecanismo físico explicável (camada de vapor isola a gota da superfície e a faz durar mais); visual fácil de animar. Proposto no canal T-pauta-leidenfrost. Na produção, verificar faixa de temperatura em fonte primária e incluir ressalva de segurança (não tentar com óleo/frigideira sem supervisão)."
     }
   ]
 }

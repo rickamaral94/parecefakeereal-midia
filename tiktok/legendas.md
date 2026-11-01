@@ -163,3 +163,23 @@ Manda pra quem come banana todo dia.
 
 #PareceFakeEReal #Radioatividade #Física #Ciência #Curiosidades
 ```
+
+---
+
+## 9. Bolhas de sabão coloridas
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel9_bolhas_sabao.mp4
+
+```
+Por que uma bolha de sabão transparente fica colorida? 🫧🌈
+
+A luz reflete nas duas faces da película finíssima. Os dois reflexos se recombinam e algumas cores se reforçam, outras se cancelam: qual cor sobra depende da espessura. Quando o topo fica fino demais, surgem manchas escuras — a bolha está perto de estourar.
+
+Ressalva: o ângulo e a iluminação também mudam a cor; animação simplificada.
+
+Fontes: Exploratorium, WebExhibits e Science News. Ilustração autoral, locução sintética.
+
+Salva pra explicar na próxima bolha.
+
+#PareceFakeEReal #BolhaDeSabão #Física #Luz #Ciência
+```
