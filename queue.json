@@ -22,7 +22,8 @@
     "patinhos de borracha no Pacífico (1992)",
     "gálio derrete na mão (carrossel)",
     "formigas-de-fogo em jangada",
-    "banana radioativa (potássio-40)"
+    "banana radioativa (potássio-40)",
+    "bolhas de sabão coloridas (interferência)"
   ],
   "fila": [
     {
@@ -519,7 +520,7 @@
       "grupo": "A",
       "gancho": "Por que uma bolha de sabão transparente fica colorida?",
       "cta": "salvar",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "https://annex.exploratorium.edu/ronh/bubbles/bubble_colors.html",
         "https://webexhibits.org/causesofcolor/15E.html",
@@ -531,7 +532,9 @@
       "video": "videos/reel9_bolhas_sabao.mp4",
       "revisao": "pos-publicacao",
       "review_pauta": "20261029T135310121Z-chatgpt-ada7",
-      "duracao_s": 48.6
+      "duracao_s": 48.6,
+      "media_id": "18100544576544704",
+      "publicado_em": "2026-11-01 07:23 (São Paulo)"
     },
     {
       "id": "reel10_sapo_congelado",
