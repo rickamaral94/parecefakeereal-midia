@@ -1,0 +1,80 @@
+{
+  "tema": "GPS e relatividade",
+  "formato": "Carrossel de 8 slides, 1080×1350",
+  "pergunta": "Por que o GPS precisa corrigir os relógios dos satélites?",
+  "cta": "seguir",
+  "review_pauta": "20261029T140011176Z-claude-397b",
+  "review_roteiro": null,
+  "fontes": [
+    {
+      "url": "https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test",
+      "aberta_em": "2026-11-03",
+      "confirma": "Relógios GPS: movimento atrasa cerca de 7 microssegundos/dia; gravidade adianta cerca de 45; saldo cerca de +38 em relação aos relógios no solo. O sistema corrige efeitos relativísticos.",
+      "trecho_relevante": "Parágrafos sobre GPS, linhas155–157 da página lida."
+    }
+  ],
+  "fatos_permitidos": [
+    "Satélites GPS levam relógios atômicos; o sistema depende de medidas de tempo.",
+    "A velocidade dos satélites e a diferença gravitacional em relação ao solo afetam a marcha dos relógios em sentidos opostos.",
+    "Em órbitas GPS, os dois efeitos somam aproximadamente +38 microssegundos por dia sem correção; isso não é regra para todo satélite.",
+    "O sistema GPS inclui correções relativísticas para manter a precisão."
+  ],
+  "nao_afirmar": [
+    "Não dizer que Einstein criou o GPS ou que o celular controla os relógios no espaço.",
+    "Não atribuir toda imprecisão do GPS à relatividade.",
+    "Não inventar erro em quilômetros por dia nem número de satélites.",
+    "Não usar fotografias falsas de satélites ou experimento."
+  ],
+  "roteiro": [
+    {
+      "slide": 1,
+      "funcao": "Capa",
+      "objetivo": "Gancho em até8palavras: relação entre GPS cotidiano e Einstein. Texto final cabe ao Gemini."
+    },
+    {
+      "slide": 2,
+      "funcao": "Contexto",
+      "objetivo": "Ligar a localização à medição precisa de tempo."
+    },
+    {
+      "slide": 3,
+      "funcao": "Mecanismo",
+      "objetivo": "Explicar que os satélites levam relógios atômicos, comparados a uma referência no solo."
+    },
+    {
+      "slide": 4,
+      "funcao": "Gravidade",
+      "objetivo": "Explicar que o efeito gravitacional faz os relógios GPS adiantarem em relação ao solo."
+    },
+    {
+      "slide": 5,
+      "funcao": "Velocidade",
+      "objetivo": "Mostrar efeito contrário da velocidade e saldo aproximado +38 microssegundos/dia; explicar unidade."
+    },
+    {
+      "slide": 6,
+      "funcao": "Ressalva",
+      "objetivo": "Delimitar à órbita GPS e dizer que o sistema já aplica correções; não equivale a um GPS que vive errado."
+    },
+    {
+      "slide": 7,
+      "funcao": "Conclusão",
+      "objetivo": "Responder por completo à pergunta: GPS precisa compensar efeitos relativísticos nos relógios para localizar com precisão. Frase afirmativa com ponto final."
+    },
+    {
+      "slide": 8,
+      "funcao": "Card fixo",
+      "asset": "marca/card_final_carrossel.jpg",
+      "objetivo": "Usar o arquivo existente, sem recriar nem reescrever."
+    }
+  ],
+  "regras": [
+    "Texto final e legenda produzidos pelo Gemini, sem atribuição falsa de autoria à equipe.",
+    "Uma única CTA de seguir; até5hashtags, incluindo #PareceFakeEReal.",
+    "Máximo30palavras por slide de conteúdo, capa até8palavras; legenda abre em até12palavras.",
+    "Fundo #0B0D13, branco e amarelo #FFC440, Inter Bold; diagramas simples, rótulo Diagrama sem escala.",
+    "Conclusão no penúltimo slide, ressalva antes dela, card fixo no último.",
+    "Legenda com explicação, ressalva, links das fontes e aviso de ilustração/IA.",
+    "Nenhuma publicação automática; resposta do Gemini depende da revisão final dos dois agentes."
+  ]
+}
