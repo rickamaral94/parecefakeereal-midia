@@ -48,8 +48,23 @@
       "review_pauta": "20261029T140011176Z-claude-397b",
       "proposal": "20261029T135310317Z-chatgpt-927e",
       "review_final": null,
-      "status": "aprovado",
-      "metricas": []
+      "status": "pronto",
+      "metricas": [],
+      "pasta": "carrosseis/carrossel2_gps",
+      "slides": [
+        "carrosseis/carrossel2_gps/01.jpg",
+        "carrosseis/carrossel2_gps/02.jpg",
+        "carrosseis/carrossel2_gps/03.jpg",
+        "carrosseis/carrossel2_gps/04.jpg",
+        "carrosseis/carrossel2_gps/05.jpg",
+        "carrosseis/carrossel2_gps/06.jpg",
+        "carrosseis/carrossel2_gps/07.jpg",
+        "carrosseis/carrossel2_gps/08.jpg"
+      ],
+      "legenda": "carrosseis/carrossel2_gps/legenda.txt",
+      "fontes_documento": "carrosseis/carrossel2_gps/fontes.md",
+      "observacao": "Rick autorizou publicar em03/11. Artes entregues pelo Rick; sete originais preservados e cardfinal substituído pelo oficial. Aguarda review final claude e publicação Windsor; revisar rótulos adicionais slide6. Não publicar duplicado.",
+      "publicacao_autorizada_por_rick": true
     },
     {
       "id": "carrossel3_ras_de_vidro",

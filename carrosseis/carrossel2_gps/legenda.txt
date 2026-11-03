@@ -1,0 +1,14 @@
+Seu GPS precisa corrigir até o ritmo do tempo. 🛰️
+
+Nos satélites GPS, gravidade e velocidade afetam os relógios em sentidos opostos. Sem compensação, o saldo seria cerca de 38 microssegundos de adiantamento por dia em relação ao solo.
+
+O sistema já corrige esses efeitos. A relatividade ajuda o GPS a localizar você com precisão.
+
+Diagramas ilustrativos, sem escala. Artes geradas por IA; card final oficial do perfil.
+
+Fonte: NIST — Putting Einstein to the Test
+https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test
+
+Siga @parecefakeereal para entender a ciência que parece mentira.
+
+#PareceFakeEReal #GPS #Relatividade #Física #Tecnologia
