@@ -76,5 +76,11 @@
     "Conclusão no penúltimo slide, ressalva antes dela, card fixo no último.",
     "Legenda com explicação, ressalva, links das fontes e aviso de ilustração/IA.",
     "Nenhuma publicação automática; resposta do Gemini depende da revisão final dos dois agentes."
-  ]
+  ],
+  "entrega_final_exigida_por_rick": {
+    "textos": "Textos finais de slides e legenda produzidos pelo Gemini.",
+    "artes": "Arquivos finais dos 7 slides de conteúdo produzidos por um modelo Gemini de imagem; último slide usa card fixo existente, sem recriação.",
+    "videos": "Quando a pauta for Reel, vídeo final produzido por modelo de geração de vídeo da API Gemini; duração e formato do PLAYBOOK. Modelo, limites e disponibilidade devem ser confirmados antes.",
+    "estado": "Somente briefing e adaptador de texto preparados. Nenhuma geração visual ou textual real executada."
+  }
 }

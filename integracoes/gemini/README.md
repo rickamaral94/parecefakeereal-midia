@@ -6,7 +6,7 @@ Pedido de Rick em 03/11/2026: chatgpt e claude definem curadoria, tema e roteiro
 
 Nenhuma chamada ao Gemini foi feita. Ambiente sem GEMINI_API_KEY, sem google-genai e sem liberação de generativelanguage.googleapis.com na política de rede. Busca por plugin Gemini não retornou integração disponível. A conta do ChatGPT não fornece uma chave de API OpenAI; não é necessária aqui: o briefing é feito nesta conversa, sem chamar GPT-4o novamente.
 
-O exemplo do Rick pede texto e descrição de capa. Ele não gera arquivos JPEG, vídeo nem narração. Este adaptador também entrega texto/direção visual; artes finais produzidas por Gemini exigem uma integração de geração de imagem apropriada, a definir com Rick. Não atribuir uma imagem renderizada por nós ao Gemini.
+O exemplo do Rick pede texto e descrição de capa. Ele não gera arquivos JPEG, vídeo nem narração. Este adaptador também entrega texto/direção visual; Rick confirmou que quer também as artes/vídeos finais produzidos pelo Gemini. Essa integração visual ainda não está implementada; ver ENTREGA-VISUAL.md. Não atribuir uma imagem renderizada por nós ao Gemini.
 
 ## Preparação sem acesso externo
 
