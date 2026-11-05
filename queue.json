@@ -23,7 +23,8 @@
     "gálio derrete na mão (carrossel)",
     "formigas-de-fogo em jangada",
     "banana radioativa (potássio-40)",
-    "bolhas de sabão coloridas (interferência)"
+    "bolhas de sabão coloridas (interferência)",
+    "rã-da-madeira congela (crioproteção)"
   ],
   "fila": [
     {
@@ -579,7 +580,7 @@
       "grupo": "B",
       "gancho": "Esse sapo congela no inverno — e volta a pular na primavera.",
       "cta": "seguir",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "https://cob.silverchair.com/jeb/article-pdf/181/1/245/3383117/jexbio_181_1_245.pdf",
         "https://cob.silverchair.com/jeb/article-pdf/216/18/i/1877576/isi-iii.pdf",
@@ -592,7 +593,9 @@
       "duracao_s": 48.3,
       "revisao": "pos-publicacao",
       "script": "src/reel10_sapo.py",
-      "obs_producao": "CTA trocada de 'enviar' para 'seguir' pela revisão semanal de 01/11 (0 compartilhamentos com CTA enviar). Sem review de pauta do chatgpt (proposta 24f9 aberta)."
+      "obs_producao": "CTA trocada de 'enviar' para 'seguir' pela revisão semanal de 01/11 (0 compartilhamentos com CTA enviar). Sem review de pauta do chatgpt (proposta 24f9 aberta).",
+      "media_id": "17958550656278852",
+      "publicado_em": "2026-11-05 07:27 (São Paulo)"
     },
     {
       "id": "reel11_camarao_pistola",
