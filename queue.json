@@ -620,6 +620,18 @@
       "metricas": [],
       "voz": "M4",
       "motivo": "Mecanismo físico explicável (camada de vapor isola a gota da superfície e a faz durar mais); visual fácil de animar. Proposto no canal T-pauta-leidenfrost. Na produção, verificar faixa de temperatura em fonte primária e incluir ressalva de segurança (não tentar com óleo/frigideira sem supervisão)."
+    },
+    {
+      "id": "reel13_besouro_bombardeiro",
+      "tema": "Besouro-bombardeiro dispara um jato químico quente em pulsos",
+      "grupo": "A",
+      "gancho": "Como um besouro dispara um jato fervente sem se queimar?",
+      "cta": "salvar",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M3",
+      "motivo": "Mecanismo químico explicável (hidroquinona + peróxido de hidrogênio misturados com enzimas numa câmara de reação; jato pulsado). Proposto no canal T-pauta-besouro-bombardeiro. Na produção, verificar em fonte primária (ex.: Arndt et al., Science 2015; Eisner) temperatura (~100 °C) e frequência dos pulsos, sem exagero."
     }
   ]
 }
