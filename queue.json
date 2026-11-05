@@ -471,6 +471,18 @@
           "comentarios": 0,
           "tempo_medio_s": 16.7,
           "pulo_3s": 0.448
+        },
+        {
+          "lido_em": "2026-11-05",
+          "horas_desde_publicacao": 144,
+          "alcance": 128,
+          "views": 158,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 16.6,
+          "pulo_3s": 0.448
         }
       ],
       "voz": "M4",
@@ -504,6 +516,18 @@
           "comentarios": 0,
           "tempo_medio_s": 9.3,
           "pulo_3s": 0.526
+        },
+        {
+          "lido_em": "2026-11-05",
+          "horas_desde_publicacao": 120,
+          "alcance": 115,
+          "views": 129,
+          "curtidas": 3,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 9.2,
+          "pulo_3s": 0.53
         }
       ],
       "voz": "M4",
@@ -526,7 +550,20 @@
         "https://webexhibits.org/causesofcolor/15E.html",
         "https://www.sciencenews.org/article/shimmering-soap-bubbles-have-dark-side"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-11-05",
+          "horas_desde_publicacao": 96,
+          "alcance": 135,
+          "views": 146,
+          "curtidas": 5,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 6.3,
+          "pulo_3s": 0.556
+        }
+      ],
       "voz": "M3",
       "motivo": "Mecanismo físico explicável (interferência da luz refletida nas duas faces da película; cor muda com a espessura); visual fácil de animar.",
       "video": "videos/reel9_bolhas_sabao.mp4",
@@ -541,11 +578,21 @@
       "tema": "Sapo-da-madeira congela no inverno e volta à vida (crioproteção com glicose)",
       "grupo": "B",
       "gancho": "Esse sapo congela no inverno — e volta a pular na primavera.",
-      "cta": "enviar a alguém",
-      "status": "pendente",
-      "fontes": [],
+      "cta": "seguir",
+      "status": "pronto",
+      "fontes": [
+        "https://cob.silverchair.com/jeb/article-pdf/181/1/245/3383117/jexbio_181_1_245.pdf",
+        "https://cob.silverchair.com/jeb/article-pdf/216/18/i/1877576/isi-iii.pdf",
+        "https://calacademy.org/explore-science/frogsicles",
+        "https://www.livescience.com/32175-can-frogs-survive-being-frozen.html"
+      ],
       "voz": "M4",
-      "motivo": "Mecanismo fisiológico explicável (gelo fora das células, glicose como crioprotetor); proposta no canal T-pauta-sapo-congelado para revisão do chatgpt. Fontes a verificar na produção."
+      "motivo": "Mecanismo fisiológico explicável (gelo fora das células, glicose como crioprotetor); proposta no canal T-pauta-sapo-congelado para revisão do chatgpt. Fontes a verificar na produção.",
+      "video": "videos/reel10_sapo_congelado.mp4",
+      "duracao_s": 48.3,
+      "revisao": "pos-publicacao",
+      "script": "src/reel10_sapo.py",
+      "obs_producao": "CTA trocada de 'enviar' para 'seguir' pela revisão semanal de 01/11 (0 compartilhamentos com CTA enviar). Sem review de pauta do chatgpt (proposta 24f9 aberta)."
     },
     {
       "id": "reel11_camarao_pistola",

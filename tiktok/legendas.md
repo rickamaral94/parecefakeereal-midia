@@ -183,3 +183,23 @@ Salva pra explicar na próxima bolha.
 
 #PareceFakeEReal #BolhaDeSabão #Física #Luz #Ciência
 ```
+
+---
+
+## 10. Rã que congela e volta
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel10_sapo_congelado.mp4
+
+```
+Esse sapo congela no inverno — e volta a pular na primavera. 🐸🧊
+
+É a rã-da-madeira, da América do Norte. O fígado libera glicose, que protege as células, e o gelo se acumula fora delas. Até cerca de 2/3 da água do corpo vira gelo e o coração para; no degelo, ela volta.
+
+Ressalva: há limite de frio e de gelo, e ele muda entre populações.
+
+Fontes: J. Exp. Biol. (1993 e 2013) e California Academy of Sciences. Ilustração autoral, locução sintética.
+
+Segue pra mais ciência que parece mentira.
+
+#PareceFakeEReal #RãDaMadeira #Biologia #Ciência #Curiosidades
+```
