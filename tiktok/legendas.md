@@ -203,3 +203,21 @@ Segue pra mais ciência que parece mentira.
 
 #PareceFakeEReal #RãDaMadeira #Biologia #Ciência #Curiosidades
 ```
+
+## 11. Camarão-pistola
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel11_camarao_pistola.mp4
+
+```
+Como um camarão de poucos centímetros faz um dos sons mais altos do mar? 🦐💥
+
+A garra fecha tão rápido que dispara um jato de água; a pressão cai e nasce uma bolha de vapor. O estalo vem do colapso dessa bolha, não da garra batendo, e a onda de choque atordoa presas pequenas.
+
+Ressalva: os ~200 dB são medidos na água, numa escala que não se compara direto com a do ar.
+
+Fontes: Science (2000) e Universidade de Twente. Ilustração autoral, locução sintética.
+
+Salva pra lembrar do camarão que atira bolhas.
+
+#PareceFakeEReal #CamarãoPistola #Física #VidaMarinha #Ciência
+```

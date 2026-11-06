@@ -24,7 +24,8 @@
     "formigas-de-fogo em jangada",
     "banana radioativa (potássio-40)",
     "bolhas de sabão coloridas (interferência)",
-    "rã-da-madeira congela (crioproteção)"
+    "rã-da-madeira congela (crioproteção)",
+    "camarão-pistola (cavitação)"
   ],
   "fila": [
     {
@@ -595,7 +596,20 @@
       "script": "src/reel10_sapo.py",
       "obs_producao": "CTA trocada de 'enviar' para 'seguir' pela revisão semanal de 01/11 (0 compartilhamentos com CTA enviar). Sem review de pauta do chatgpt (proposta 24f9 aberta).",
       "media_id": "17958550656278852",
-      "publicado_em": "2026-11-05 07:27 (São Paulo)"
+      "publicado_em": "2026-11-05 07:27 (São Paulo)",
+      "metricas": {
+        "2026-11-06": {
+          "horas_desde_publicacao": 24,
+          "alcance": 100,
+          "views": 109,
+          "curtidas": 1,
+          "compartilhamentos": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "pulo_3s": 0.578,
+          "tempo_medio_s": 6.3
+        }
+      }
     },
     {
       "id": "reel11_camarao_pistola",
@@ -603,7 +617,7 @@
       "grupo": "A",
       "gancho": "Como um camarão de poucos centímetros faz um dos sons mais altos do mar?",
       "cta": "salvar",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "https://pofv2.tmp.utwente.nl/research/turbulencebubbles/snappingshrimp",
         "https://portal.fis.tum.de/en/publications/how-snapping-shrimp-snap-through-cavitating-bubbles/",
@@ -617,7 +631,10 @@
       "script": "src/reel11_camarao.py",
       "duracao_s": 49.2,
       "revisao": "pos-publicacao",
-      "verificacao_2026_11_06": "Verificado nesta execução: Univ. Twente (grupo de Lohse) — som vem só do colapso da bolha de cavitação gerada pelo jato; antes se pensava no choque das partes da garra; jato abaixo da pressão de vapor; source levels 'as high as 200 dB'; colônias formam ruído de fundo permanente; flash 'shrimpoluminescence'. Resumo de Versluis et al. Science 289:2114 (2000, portal TUM) — Alpheus heterochaelis; som no colapso, não no fechamento; atordoa ou mata presas. Physics World 2000 — câmera de alta velocidade; ruído limita sonar. Science News 2001 — camarão do tamanho de um mindinho; luz fraca demais para olhos. Não usado: temperatura da bolha (Science News cita 20.000 °C em contexto genérico de sonoluminescência), velocidade do jato, tamanho da bolha. PubMed do Nature 2001 não abriu. dB com ressalva de referência subaquática. 49,2 s, voz M3, speed 1.25."
+      "verificacao_2026_11_06": "Verificado nesta execução: Univ. Twente (grupo de Lohse) — som vem só do colapso da bolha de cavitação gerada pelo jato; antes se pensava no choque das partes da garra; jato abaixo da pressão de vapor; source levels 'as high as 200 dB'; colônias formam ruído de fundo permanente; flash 'shrimpoluminescence'. Resumo de Versluis et al. Science 289:2114 (2000, portal TUM) — Alpheus heterochaelis; som no colapso, não no fechamento; atordoa ou mata presas. Physics World 2000 — câmera de alta velocidade; ruído limita sonar. Science News 2001 — camarão do tamanho de um mindinho; luz fraca demais para olhos. Não usado: temperatura da bolha (Science News cita 20.000 °C em contexto genérico de sonoluminescência), velocidade do jato, tamanho da bolha. PubMed do Nature 2001 não abriu. dB com ressalva de referência subaquática. 49,2 s, voz M3, speed 1.25.",
+      "media_id": "18126015619905576",
+      "publicado_em": "2026-11-06 07:19 (São Paulo)",
+      "video_url_publicado": "https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/69ce24916ee601f9c97c07410f454f0111a337b4/videos/reel11_camarao_pistola.mp4"
     },
     {
       "id": "reel12_leidenfrost",
@@ -642,6 +659,16 @@
       "metricas": [],
       "voz": "M3",
       "motivo": "Mecanismo químico explicável (hidroquinona + peróxido de hidrogênio misturados com enzimas numa câmara de reação; jato pulsado). Proposto no canal T-pauta-besouro-bombardeiro. Na produção, verificar em fonte primária (ex.: Arndt et al., Science 2015; Eisner) temperatura (~100 °C) e frequência dos pulsos, sem exagero."
+    },
+    {
+      "id": "reel14_lua_se_afasta",
+      "tema": "A Lua se afasta da Terra alguns centímetros por ano (marés e laser refletido nos espelhos da Apollo)",
+      "grupo": "B",
+      "gancho": "A Lua está fugindo da Terra — alguns centímetros por ano.",
+      "cta": "seguir",
+      "status": "pendente",
+      "voz": "M4",
+      "motivo": "Mecanismo físico explicável (atrito de maré transfere momento angular: a rotação da Terra desacelera e a órbita da Lua cresce), medido com laser refletido em retrorrefletores deixados pela Apollo. Proposto no canal T-pauta-lua-se-afasta. Na produção, verificar a taxa (~3,8 cm/ano) em fonte institucional (NASA/observatórios), evitar 'fugindo' literal sem ressalva de escala de bilhões de anos."
     }
   ]
 }
