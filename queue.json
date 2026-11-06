@@ -603,11 +603,21 @@
       "grupo": "A",
       "gancho": "Como um camarão de poucos centímetros faz um dos sons mais altos do mar?",
       "cta": "salvar",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "https://pofv2.tmp.utwente.nl/research/turbulencebubbles/snappingshrimp",
+        "https://portal.fis.tum.de/en/publications/how-snapping-shrimp-snap-through-cavitating-bubbles/",
+        "https://physicsworld.com/a/the-bubble-bursts-for-shrimps/",
+        "https://sciencenews.org/article/shrimps-spew-bubbles-hot-sun"
+      ],
       "metricas": [],
       "voz": "M3",
-      "motivo": "Mecanismo físico explicável (jato de água → bolha de cavitação que colapsa e estala; Versluis et al., Science 2000). Verificar na produção números de pressão/temperatura e evitar exageros ('mais quente que o Sol') sem fonte primária."
+      "motivo": "Mecanismo físico explicável (jato de água → bolha de cavitação que colapsa e estala; Versluis et al., Science 2000). Verificar na produção números de pressão/temperatura e evitar exageros ('mais quente que o Sol') sem fonte primária.",
+      "video": "videos/reel11_camarao_pistola.mp4",
+      "script": "src/reel11_camarao.py",
+      "duracao_s": 49.2,
+      "revisao": "pos-publicacao",
+      "verificacao_2026_11_06": "Verificado nesta execução: Univ. Twente (grupo de Lohse) — som vem só do colapso da bolha de cavitação gerada pelo jato; antes se pensava no choque das partes da garra; jato abaixo da pressão de vapor; source levels 'as high as 200 dB'; colônias formam ruído de fundo permanente; flash 'shrimpoluminescence'. Resumo de Versluis et al. Science 289:2114 (2000, portal TUM) — Alpheus heterochaelis; som no colapso, não no fechamento; atordoa ou mata presas. Physics World 2000 — câmera de alta velocidade; ruído limita sonar. Science News 2001 — camarão do tamanho de um mindinho; luz fraca demais para olhos. Não usado: temperatura da bolha (Science News cita 20.000 °C em contexto genérico de sonoluminescência), velocidade do jato, tamanho da bolha. PubMed do Nature 2001 não abriu. dB com ressalva de referência subaquática. 49,2 s, voz M3, speed 1.25."
     },
     {
       "id": "reel12_leidenfrost",
