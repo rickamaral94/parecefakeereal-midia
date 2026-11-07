@@ -608,6 +608,17 @@
           "comentarios": 0,
           "pulo_3s": 0.578,
           "tempo_medio_s": 6.3
+        },
+        "2026-11-07": {
+          "horas_desde_publicacao": 48,
+          "alcance": 101,
+          "views": 110,
+          "curtidas": 1,
+          "compartilhamentos": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "pulo_3s": 0.583,
+          "tempo_medio_s": 6.2
         }
       }
     },
@@ -624,7 +635,20 @@
         "https://physicsworld.com/a/the-bubble-bursts-for-shrimps/",
         "https://sciencenews.org/article/shrimps-spew-bubbles-hot-sun"
       ],
-      "metricas": [],
+      "metricas": [
+        {
+          "lido_em": "2026-11-07",
+          "horas_desde_publicacao": 24,
+          "alcance": 49,
+          "views": 54,
+          "curtidas": 1,
+          "compart": 0,
+          "salvos": 0,
+          "comentarios": 0,
+          "tempo_medio_s": 7.1,
+          "pulo_3s": 0.6
+        }
+      ],
       "voz": "M3",
       "motivo": "Mecanismo físico explicável (jato de água → bolha de cavitação que colapsa e estala; Versluis et al., Science 2000). Verificar na produção números de pressão/temperatura e evitar exageros ('mais quente que o Sol') sem fonte primária.",
       "video": "videos/reel11_camarao_pistola.mp4",
@@ -642,11 +666,22 @@
       "grupo": "B",
       "gancho": "Numa frigideira bem quente, a gota de água não ferve na hora: ela flutua.",
       "cta": "seguir",
-      "status": "pendente",
-      "fontes": [],
+      "status": "pronto",
+      "fontes": [
+        "https://instructional-resources.physics.uiowa.edu/sites/instructional-resources.physics.uiowa.edu/files/2024-12/4A40.30%2520-%2520leidenfrost_essay_5.pdf",
+        "https://arxiv.org/abs/1202.2157",
+        "https://news.emory.edu/features/2021/09/new-method-reveals-minimum-heat-levitating-drops",
+        "https://physics.aps.org/articles/pdf/10.1103/Physics.14.s107",
+        "https://researchportal.ip-paris.fr/en/publications/leidenfrost-dynamics/"
+      ],
       "metricas": [],
       "voz": "M4",
-      "motivo": "Mecanismo físico explicável (camada de vapor isola a gota da superfície e a faz durar mais); visual fácil de animar. Proposto no canal T-pauta-leidenfrost. Na produção, verificar faixa de temperatura em fonte primária e incluir ressalva de segurança (não tentar com óleo/frigideira sem supervisão)."
+      "motivo": "Mecanismo físico explicável (camada de vapor isola a gota da superfície e a faz durar mais); visual fácil de animar. Proposto no canal T-pauta-leidenfrost. Na produção, verificar faixa de temperatura em fonte primária e incluir ressalva de segurança (não tentar com óleo/frigideira sem supervisão).",
+      "video": "videos/reel12_leidenfrost.mp4",
+      "script": "src/reel12_leidenfrost.py",
+      "duracao_s": 49.2,
+      "revisao": "pos-publicacao",
+      "verificacao_2026_11_07": "Verificado nesta execução: Walker (Univ. Iowa) — entre 100 e ~200 °C a gota evapora em segundos; perto de 200 °C (pico = ponto de Leidenfrost) dura bem mais de um minuto e 'dança'; camada <0,1 mm na borda e ~0,2 mm no centro, reposta continuamente; vapor conduz energia ~10× pior que água líquida; impurezas rompem a camada; Leidenfrost 1756. Burton et al. (arXiv/PRL 2012) — colchão de vapor isolante, movimento quase sem atrito, T_L ~160 °C no setup deles. Emory/APS 2021 (Harvey et al.) — camada estável a ~240 °C em cilindros, varia com o metal; colapso a ~140 °C. Quéré 2013 (resumo) — colchão dinâmico, movimento sem atrito. Ficaram de fora: número único de temperatura (fontes divergem 160–240 °C; vídeo diz 'perto de 200 °C' citando Walker e ressalva), profissão de Leidenfrost (Emory diz 1751, demais 1756 — usado 1756). Voz M4, speed 1.25, 49,2 s."
     },
     {
       "id": "reel13_besouro_bombardeiro",
