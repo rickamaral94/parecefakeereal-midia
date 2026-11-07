@@ -25,7 +25,8 @@
     "banana radioativa (potássio-40)",
     "bolhas de sabão coloridas (interferência)",
     "rã-da-madeira congela (crioproteção)",
-    "camarão-pistola (cavitação)"
+    "camarão-pistola (cavitação)",
+    "Efeito Leidenfrost (gota flutua em chapa quente)"
   ],
   "fila": [
     {
@@ -666,7 +667,7 @@
       "grupo": "B",
       "gancho": "Numa frigideira bem quente, a gota de água não ferve na hora: ela flutua.",
       "cta": "seguir",
-      "status": "pronto",
+      "status": "publicado",
       "fontes": [
         "https://instructional-resources.physics.uiowa.edu/sites/instructional-resources.physics.uiowa.edu/files/2024-12/4A40.30%2520-%2520leidenfrost_essay_5.pdf",
         "https://arxiv.org/abs/1202.2157",
@@ -681,7 +682,10 @@
       "script": "src/reel12_leidenfrost.py",
       "duracao_s": 49.2,
       "revisao": "pos-publicacao",
-      "verificacao_2026_11_07": "Verificado nesta execução: Walker (Univ. Iowa) — entre 100 e ~200 °C a gota evapora em segundos; perto de 200 °C (pico = ponto de Leidenfrost) dura bem mais de um minuto e 'dança'; camada <0,1 mm na borda e ~0,2 mm no centro, reposta continuamente; vapor conduz energia ~10× pior que água líquida; impurezas rompem a camada; Leidenfrost 1756. Burton et al. (arXiv/PRL 2012) — colchão de vapor isolante, movimento quase sem atrito, T_L ~160 °C no setup deles. Emory/APS 2021 (Harvey et al.) — camada estável a ~240 °C em cilindros, varia com o metal; colapso a ~140 °C. Quéré 2013 (resumo) — colchão dinâmico, movimento sem atrito. Ficaram de fora: número único de temperatura (fontes divergem 160–240 °C; vídeo diz 'perto de 200 °C' citando Walker e ressalva), profissão de Leidenfrost (Emory diz 1751, demais 1756 — usado 1756). Voz M4, speed 1.25, 49,2 s."
+      "verificacao_2026_11_07": "Verificado nesta execução: Walker (Univ. Iowa) — entre 100 e ~200 °C a gota evapora em segundos; perto de 200 °C (pico = ponto de Leidenfrost) dura bem mais de um minuto e 'dança'; camada <0,1 mm na borda e ~0,2 mm no centro, reposta continuamente; vapor conduz energia ~10× pior que água líquida; impurezas rompem a camada; Leidenfrost 1756. Burton et al. (arXiv/PRL 2012) — colchão de vapor isolante, movimento quase sem atrito, T_L ~160 °C no setup deles. Emory/APS 2021 (Harvey et al.) — camada estável a ~240 °C em cilindros, varia com o metal; colapso a ~140 °C. Quéré 2013 (resumo) — colchão dinâmico, movimento sem atrito. Ficaram de fora: número único de temperatura (fontes divergem 160–240 °C; vídeo diz 'perto de 200 °C' citando Walker e ressalva), profissão de Leidenfrost (Emory diz 1751, demais 1756 — usado 1756). Voz M4, speed 1.25, 49,2 s.",
+      "media_id": "18073923455756916",
+      "publicado_em": "2026-11-07 07:20 (São Paulo)",
+      "video_url_publicado": "https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/1671119f9a2bb77ef6ecd21fc24955972bacf5c0/videos/reel12_leidenfrost.mp4"
     },
     {
       "id": "reel13_besouro_bombardeiro",
@@ -704,6 +708,18 @@
       "status": "pendente",
       "voz": "M4",
       "motivo": "Mecanismo físico explicável (atrito de maré transfere momento angular: a rotação da Terra desacelera e a órbita da Lua cresce), medido com laser refletido em retrorrefletores deixados pela Apollo. Proposto no canal T-pauta-lua-se-afasta. Na produção, verificar a taxa (~3,8 cm/ano) em fonte institucional (NASA/observatórios), evitar 'fugindo' literal sem ressalva de escala de bilhões de anos."
+    },
+    {
+      "id": "reel15_gato_cai_de_pe",
+      "tema": "Gato cai de pé: o reflexo de endireitamento gira o corpo em queda sem ponto de apoio",
+      "grupo": "A",
+      "gancho": "Como um gato consegue virar no ar sem ter onde se apoiar?",
+      "cta": "salvar",
+      "status": "pendente",
+      "fontes": [],
+      "metricas": [],
+      "voz": "M3",
+      "motivo": "Mecanismo físico explicável (momento angular total zero: o gato gira frente e trás do corpo em sentidos e momentos diferentes, dobrando e esticando patas). Proposto no canal T-pauta-gato-cai-de-pe. Na produção, verificar em fonte primária/institucional (p. ex. Kane & Scher 1969; fotos de Marey 1894) e não afirmar que gatos sempre sobrevivem a quedas; nada de 'síndrome do arranha-céu' sem fonte."
     }
   ]
 }

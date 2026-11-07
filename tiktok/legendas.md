@@ -221,3 +221,21 @@ Salva pra lembrar do camarão que atira bolhas.
 
 #PareceFakeEReal #CamarãoPistola #Física #VidaMarinha #Ciência
 ```
+
+## 12. Efeito Leidenfrost
+
+Vídeo: https://raw.githubusercontent.com/rickamaral94/parecefakeereal-midia/main/videos/reel12_leidenfrost.mp4
+
+```
+Numa frigideira bem quente, a gota de água não ferve na hora: ela flutua. 💧🔥
+
+A base da gota vira vapor na hora e forma um colchão finíssimo que isola a gota do metal. Por isso, numa certa faixa, quanto mais quente a chapa, mais a gota dura.
+
+Ressalva: a temperatura exata muda com a superfície e com a água. Cuidado: chapa e vapor queimam; nunca teste com óleo.
+
+Fontes: Univ. of Iowa (J. Walker), Phys. Rev. Lett. (2012) e Emory University. Ilustração autoral, locução sintética.
+
+Segue pra mais física que parece truque.
+
+#PareceFakeEReal #EfeitoLeidenfrost #Física #Ciência #Curiosidades
+```
